@@ -36,26 +36,24 @@
 </div>
 
 ---
-<br/><br/><br/><br/>
+
+<br/><br/><br/><br/><br/><br/>
 
 <div align="left">
 
 ## 🔭 Overview
 
-The rapid growth of digital banking and online transactions has significantly increased the risk of sophisticated financial fraud, posing serious challenges to security, trust, and operational efficiency. Traditional rule-based and statistical methods struggle to detect evolving fraud patterns in high-volume, real-time transaction environments.  
+The rapid growth of digital banking has increased the risk of sophisticated financial fraud, making traditional rule-based systems less effective in handling high-volume, real-time transactions.  
 
-This project presents an **advanced deep learning–based framework for real-time fraud detection in banking**, designed to identify suspicious transactions with high accuracy and low latency. The system processes continuous transaction streams, extracts meaningful behavioral and relational features, and detects anomalies efficiently.  
+This project proposes an **advanced deep learning framework for real-time fraud detection**, designed to identify suspicious activities with high accuracy and low latency. It combines **Apache Kafka for real-time data streaming**, **feature engineering**, and powerful models such as **RNNs / Transformers**, **Graph Neural Networks (GNNs)**, and **Autoencoders / Isolation Forests** for anomaly detection.  
 
-The solution integrates multiple intelligent components, including **real-time data ingestion using Apache Kafka**, **feature engineering for temporal and behavioral insights**, and powerful deep learning architectures such as **RNNs / Transformers for sequential modeling**, **Graph Neural Networks (GNNs) for relationship analysis**, and **Autoencoders / Isolation Forests for anomaly detection**. A hybrid approach combining rule-based systems with deep learning predictions further enhances detection capability.  
+The system is deployed on scalable cloud platforms (**AWS / Azure / GCP**) with strong **MLOps practices** for continuous monitoring and improvement.  
 
-The framework is deployed on scalable cloud infrastructure (**AWS / Azure / GCP**) with GPU acceleration, ensuring efficient real-time processing. Additionally, robust **MLOps practices** enable continuous model training, deployment, and monitoring, allowing the system to adapt to emerging fraud patterns.  
-
-Overall, the system aims to deliver **high detection accuracy**, **reduced false positives**, and **near real-time fraud prevention**, ultimately minimizing financial losses and strengthening customer trust in modern banking systems.
+Overall, the solution aims to achieve **high detection accuracy**, **low false positives**, and **real-time fraud prevention**, enhancing security and customer trust in banking systems.
 
 <br/>
 
-`Real-Time Fraud Detection` · `Deep Learning` · `Graph Neural Networks` · `Transformers` · `Anomaly Detection` · `Apache Kafka` · `Cloud Computing` · `MLOps` · `Banking Security`
+`Real-Time Fraud Detection` · `Deep Learning` · `GNN` · `Transformers` · `Anomaly Detection` · `Kafka` · `Cloud` · `MLOps`
 
 </div>
 
-`Real-Time Fraud Detection` · `Deep Learning` · `Graph Neural Networks` · `Transformers` · `Anomaly Detection` · `Apache Kafka` · `Cloud Computing` · `MLOps` · `Banking Security`
