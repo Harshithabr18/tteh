@@ -78,3 +78,30 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 <br/>
 
 </div>
+</div>
+
+---
+
+<br/><br/><br/><br/><br/><br/>
+
+<div align="left">
+
+## 1. Introduction
+
+### Problem Statement
+The banking industry faces increasingly sophisticated fraud, causing significant financial losses and reducing customer trust. Traditional rule-based and statistical systems are often reactive, struggle to adapt to evolving fraud patterns, and generate high false positives, disrupting legitimate transactions. The scale and speed of modern financial data demand a more intelligent, real-time fraud detection approach.
+
+### Project Goal
+The goal of this project is to develop an **advanced deep learning framework for real-time fraud detection** that improves accuracy and efficiency using modern AI techniques. The system aims to:
+
+- **Minimize Financial Losses** through precise fraud detection  
+- **Improve Detection Speed** with real-time analysis  
+- **Reduce False Positives** to avoid disrupting genuine users  
+- **Enhance Adaptability** to evolving fraud patterns  
+- **Leverage Advanced Models** such as RNNs/Transformers, GNNs, and anomaly detection techniques  
+
+<br/>
+
+`Fraud Detection` · `Deep Learning` · `Real-Time Systems` · `Banking Security` · `AI Models`
+
+</div>
