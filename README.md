@@ -56,4 +56,13 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 `Real-Time Fraud Detection` · `Deep Learning` · `GNN` · `Transformers` · `Anomaly Detection` · `Kafka` · `Cloud` · `MLOps`
 
 </div>
+## 📚 Table of Contents
 
+1. **Introduction**
+2. **Methodology & Key Components**
+3. **Data Exploration & Preprocessing**
+4. **Model Development**
+5. **Model Evaluation**
+6. **Deployment Strategy**
+7. **Future Work & Enhancements**
+8. **Conclusion**
