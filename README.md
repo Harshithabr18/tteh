@@ -129,3 +129,30 @@ This project uses an advanced deep learning–based methodology combined with sc
 `Kafka` · `Feature Engineering` · `Deep Learning` · `GNN` · `Hybrid Models` · `Cloud` · `MLOps`
 
 </div>
+</div>
+
+---
+
+<br/><br/><br/><br/><br/><br/>
+
+<div align="left">
+
+## 3. Data Exploration & Preprocessing
+
+### **Initial Data Inspection**
+- Understand data structure, types, and initial patterns  
+- Identify data quality issues and potential anomalies  
+
+### **Handling Missing Values**
+- Strategies for imputation or removal based on data context  
+- Minimizing data loss while ensuring data integrity  
+
+### **Data Cleaning and Transformation**
+- Standardize formats and address inconsistencies  
+- Feature scaling, encoding categorical variables, and preparing data for model input  
+
+<br/>
+
+`Data Inspection` · `Missing Values` · `Data Cleaning` · `Transformation` · `Preprocessing`
+
+</div>
