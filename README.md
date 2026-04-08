@@ -156,3 +156,35 @@ This project uses an advanced deep learning–based methodology combined with sc
 `Data Inspection` · `Missing Values` · `Data Cleaning` · `Transformation` · `Preprocessing`
 
 </div>
+</div>
+
+---
+
+<br/><br/><br/><br/><br/><br/>
+
+<div align="left">
+
+## 4. Model Development
+
+### **Feature Selection**
+- Identify and select the most relevant features for fraud detection  
+- Reduce dimensionality and noise in the dataset  
+
+### **Architecture Design**
+- Design and implement deep learning models:  
+  - **RNNs/Transformers** for sequential transaction data  
+  - **GNNs** for relational analysis of entities  
+  - **Autoencoders** for anomaly detection  
+
+### **Model Training and Validation**
+- Train models on historical data with appropriate loss functions  
+- Validate performance using unseen data to prevent overfitting  
+
+### **Hyperparameter Tuning**
+- Optimize model parameters (e.g., learning rate, network size) for peak performance  
+
+<br/>
+
+`Feature Selection` · `Model Design` · `Deep Learning` · `Training` · `Hyperparameter Tuning`
+
+</div>
