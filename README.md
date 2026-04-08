@@ -1,125 +1,32 @@
+<div align="center">
+
 # 🏦 Advanced Deep Learning for Real-Time Fraud Detection in Banking
 
-> Revolutionizing Financial Security with Artificial Intelligence
+### 🔐 Revolutionizing Financial Security with AI
 
----
+**TTEH LAB · School of Engineering, Dayananda Sagar University**  
+*Bangalore – 562112, Karnataka, India*
 
-## 🚀 Overview
+<br/>
 
-Modern banking systems process millions of transactions every second. Detecting fraudulent activity in real time requires highly scalable, intelligent, and adaptive systems.
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red?style=for-the-badge&logo=pytorch)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge&logo=tensorflow)
+![Kafka](https://img.shields.io/badge/Streaming-Apache%20Kafka-black?style=for-the-badge&logo=apachekafka)
+![Spark](https://img.shields.io/badge/Processing-Apache%20Spark-yellow?style=for-the-badge&logo=apachespark)
 
-This project leverages advanced deep learning, real-time streaming, and cloud-native infrastructure to identify suspicious financial transactions with high accuracy and low latency.
+![GNN](https://img.shields.io/badge/Graph%20Learning-GNN-purple?style=for-the-badge)
+![Transformers](https://img.shields.io/badge/Models-Transformers-blueviolet?style=for-the-badge)
+![Anomaly Detection](https://img.shields.io/badge/Detection-Anomaly-green?style=for-the-badge)
+![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-blue?style=for-the-badge)
+![MLOps](https://img.shields.io/badge/MLOps-CI%2FCD%20%7C%20Monitoring-grey?style=for-the-badge)
 
----
+<br/><br/>
 
-## 🧠 Key Technologies & Concepts
+### 📌 Prototype Implementation of:
 
-| Category                 | Technology / Concept                          | Purpose                                                              |
-| ------------------------ | --------------------------------------------- | -------------------------------------------------------------------- |
-| Deep Learning Frameworks | `TensorFlow`, `PyTorch`                       | Build and train fraud detection models                               |
-| Real-Time Data Streaming | `Apache Kafka`                                | Stream banking transactions instantly                                |
-| Scalable Data Processing | `Apache Spark`                                | Process large-scale transaction data efficiently                     |
-| Graph-Based Intelligence | `Graph Neural Networks (GNNs)`                | Detect suspicious relationships between users, accounts, and devices |
-| Sequential Modeling      | `RNNs`, `LSTMs`, `Transformers`               | Analyze transaction history and behavior patterns over time          |
-| Anomaly Detection        | `Autoencoders`, `Isolation Forests`           | Identify unusual or suspicious transaction activity                  |
-| Cloud Infrastructure     | `AWS`, `Azure`, `Google Cloud Platform (GCP)` | Enable secure, scalable, and distributed deployment                  |
-| MLOps                    | `CI/CD`, Monitoring, Model Versioning         | Automate deployment, tracking, and performance monitoring            |
+**"Advanced Deep Learning for Real-Time Fraud Detection in Banking"**
 
----
+<br/>
 
-## ⚙️ Proposed System Architecture
-
-```text
-Banking Transactions
-        ↓
-   Apache Kafka
-        ↓
-   Apache Spark
-        ↓
- Deep Learning Models
- (GNN + Transformer + Anomaly Detection)
-        ↓
- Fraud Score & Risk Classification
-        ↓
- Alert / Block / Manual Review
-```
-
----
-
-## 🔍 Fraud Detection Techniques
-
-### 1. Graph Neural Networks (GNNs)
-
-* Detect hidden links between:
-
-  * Bank accounts
-  * Credit cards
-  * Devices
-  * IP addresses
-* Useful for uncovering fraud rings and coordinated attacks.
-
-### 2. Sequential Deep Learning
-
-* `RNNs`, `LSTMs`, and `Transformers` analyze transaction sequences.
-* Helps identify:
-
-  * Sudden spending spikes
-  * Unusual purchase timing
-  * Deviations from normal customer behavior
-
-### 3. Anomaly Detection
-
-* Autoencoders learn normal transaction patterns.
-* Isolation Forests detect outliers instantly.
-* Effective for spotting previously unseen fraud strategies.
-
----
-
-## ☁️ Deployment Strategy
-
-* Deploy models using Docker + Kubernetes
-* Use cloud services for scaling:
-
-  * AWS SageMaker
-  * Azure Machine Learning
-  * Google Vertex AI
-* Monitor model drift and system health continuously.
-
----
-
-## 📈 Benefits
-
-* Real-time fraud detection
-* Reduced financial losses
-* Improved customer trust
-* Scalable for millions of transactions
-* Adaptive against evolving fraud techniques
-
----
-
-## 🛠️ Future Enhancements
-
-* Federated learning for privacy-preserving training
-* Explainable AI (XAI) for transparent fraud decisions
-* Integration with blockchain-based transaction systems
-* Self-learning fraud detection pipelines
-
----
-
-## 📌 Tech Stack Summary
-
-```yaml
-Frontend: Dashboard / Monitoring UI
-Backend: Python, FastAPI, Flask
-Streaming: Apache Kafka
-Processing: Apache Spark
-ML Frameworks: TensorFlow, PyTorch
-Models: GNN, Transformer, Autoencoder
-Cloud: AWS / Azure / GCP
-Deployment: Docker, Kubernetes
-Monitoring: MLflow, Prometheus, Grafana
-```
-
----
-
-⭐ If you found this useful, consider adding more project-specific details such as dataset, model accuracy, architecture diagram, and evaluation metrics.
+</div>
