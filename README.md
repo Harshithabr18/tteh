@@ -188,3 +188,27 @@ This project uses an advanced deep learning–based methodology combined with sc
 `Feature Selection` · `Model Design` · `Deep Learning` · `Training` · `Hyperparameter Tuning`
 
 </div>
+</div>
+
+---
+
+<br/><br/><br/><br/><br/><br/>
+
+<div align="left">
+
+## 6. Deployment Strategy (Conceptual)
+
+### **Real-Time Inference Considerations**
+- Low-latency model serving (e.g., using TensorFlow Serving or custom APIs)  
+- Integration with fraud detection systems via microservices architecture  
+
+### **Integration with Banking Systems**
+- Seamless data flow from transaction processing systems  
+- Automated alert generation for suspicious activities  
+- Feedback loops for continuous model improvement with analyst input  
+
+<br/>
+
+`Deployment` · `Real-Time Inference` · `Microservices` · `Banking Integration` · `MLOps`
+
+</div>
