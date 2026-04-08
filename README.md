@@ -26,8 +26,10 @@
 ### 📌 Prototype Implementation of:
 
 **"Advanced Deep Learning for Real-Time Fraud Detection in Banking"**
-**ICICI-2025, IEEE Xplore ·DOI: 10.1109/INCET64471.2025.11139964**
 
 <br/>
+
+### 📄 ICICI-2025, IEEE Xplore  
+**DOI:** https://doi.org/10.1109/INCET64471.2025.11139964
 
 </div>
