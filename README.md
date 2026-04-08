@@ -237,3 +237,32 @@ This project uses an advanced deep learning–based methodology combined with sc
 `Adaptive Learning` · `Explainable AI` · `Deep Learning` · `Innovation` · `Fraud Detection`
 
 </div>
+</div>
+
+---
+
+<br/><br/><br/><br/><br/><br/>
+
+<div align="left">
+
+## 8. Conclusion
+
+### **Summary of Findings**
+- Initial rule-based classification labeled 98.7% profiles as 'Fake' and only 1.3% as 'Real'  
+- Indicates overly strict rules, likely misclassifying incomplete profiles rather than detecting true fraud  
+
+### **Impact and Significance**
+- High false-positive rate highlights need for significant refinement  
+- Direct deployment may negatively impact user experience  
+- Emphasizes importance of balanced rules and proper thresholds  
+
+### **Next Steps**
+- Refine rule set and improve feature engineering  
+- Explore machine learning approaches for better accuracy  
+- Develop a balanced model to correctly distinguish fake and legitimate profiles  
+
+<br/>
+
+`Conclusion` · `Findings` · `Model Improvement` · `Fraud Detection` · `Future Scope`
+
+</div>
