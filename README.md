@@ -212,3 +212,28 @@ This project uses an advanced deep learning–based methodology combined with sc
 `Deployment` · `Real-Time Inference` · `Microservices` · `Banking Integration` · `MLOps`
 
 </div>
+
+</div>
+
+---
+
+<br/><br/><br/><br/><br/><br/>
+
+<div align="left">
+
+## 7. Future Work & Enhancements
+
+### **Adaptive Learning Mechanisms**
+- Implement systems that continuously learn and adapt to new fraud patterns  
+
+### **Explainable AI (XAI) for Fraud Detection**
+- Integrate XAI techniques to provide transparent insights into fraud detection decisions  
+
+### **Exploring Novel Deep Learning Architectures**
+- Investigate and adopt advanced deep learning models to enhance detection capabilities  
+
+<br/>
+
+`Adaptive Learning` · `Explainable AI` · `Deep Learning` · `Innovation` · `Fraud Detection`
+
+</div>
