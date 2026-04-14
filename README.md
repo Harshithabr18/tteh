@@ -266,3 +266,165 @@ This project uses an advanced deep learning–based methodology combined with sc
 `Conclusion` · `Findings` · `Model Improvement` · `Fraud Detection` · `Future Scope`
 
 </div>
+
+# 🔐 Advanced Deep Learning for Real-Time Fraud Detection in Banking
+
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange?logo=tensorflow)
+![PyTorch](https://img.shields.io/badge/PyTorch-AI-red?logo=pytorch)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+</p>
+
+---
+
+## 🎬 Demo
+
+### 🔹 Fraud Detection in Action (GIF)
+
+![Demo GIF](images/demo.gif)
+
+👉 This demo shows:
+- Real-time transaction processing  
+- Fraud prediction output  
+- Model confidence score  
+
+---
+
+## ⚡ Live Workflow Animation
+
+![Workflow Animation](images/workflow.gif)
+
+---
+
+## 📌 System Architecture
+
+![System Architecture](images/architecture.png)
+
+This project proposes a hybrid deep learning framework combining:
+- Graph Neural Networks (GNN)
+- Transformer Models
+- Adversarial Training
+
+---
+
+## ⚙️ Methodology Overview
+
+![Pipeline](images/pipeline.png)
+
+---
+
+## 🧹 Data Preprocessing
+
+![Preprocessing](images/preprocessing.png)
+
+### 📊 Formula Table
+
+| Concept | Formula | Description |
+|--------|--------|------------|
+| Normalization | x' = (x - xmin) / (xmax - xmin) | Feature scaling |
+| SMOTE | Synthetic sampling | Balance dataset |
+
+---
+
+## 🔗 Graph-Based Transaction Representation
+
+![Graph](images/graph.png)
+
+### 📊 Formula Table
+
+| Concept | Formula |
+|--------|--------|
+| Graph | G = (V, E) |
+| Adjacency Matrix | Aij = 1 (if edge exists), else 0 |
+
+---
+
+## 🧠 Graph Neural Network (GNN)
+
+![GNN](images/gnn.png)
+
+### 📊 Formula Table
+
+| Concept | Formula |
+|--------|--------|
+| GNN Layer | H(l+1) = σ(D⁻¹/² A D⁻¹/² H(l) W(l)) |
+
+---
+
+## 🤖 Transformer-Based Fraud Detection
+
+![Transformer](images/transformer.png)
+
+### 📊 Formula Table
+
+| Concept | Formula |
+|--------|--------|
+| Attention | softmax(QKᵀ / √dk) V |
+
+---
+
+## ⚔️ Adversarial Training
+
+![Adversarial](images/adversarial.png)
+
+### 📊 Formula Table
+
+| Concept | Formula |
+|--------|--------|
+| Adversarial Example | x' = x + ε sign(∇L(x,y)) |
+
+---
+
+## 📉 Loss Function
+
+| Type | Formula |
+|------|--------|
+| Total Loss | L = LCE + λ1Lgraph + λ2Ladv |
+
+---
+
+## 📈 Evaluation Metrics
+
+| Metric | Formula |
+|--------|--------|
+| Precision | TP / (TP + FP) |
+| Recall | TP / (TP + FN) |
+| F1 Score | 2PR / (P + R) |
+| AUC-ROC | ∫ TPR dFPR |
+
+---
+
+## 🏆 Results
+
+| Metric | Value |
+|-------|------|
+| F1 Score | **98.3%** |
+| AUC-ROC | **99.1%** |
+| Robustness | **89.7%** |
+| Latency | **7.2 ms** |
+
+---
+
+## 🎯 Key Contributions
+
+✔ Hybrid GNN + Transformer model  
+✔ Adversarial robustness  
+✔ Real-time fraud detection  
+✔ High accuracy & scalability  
+
+---
+
+## 🧪 Tech Stack
+
+- Python  
+- TensorFlow / PyTorch  
+- Scikit-learn  
+- NetworkX  
+
+---
+
+## 📂 Project Structure
