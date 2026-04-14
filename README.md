@@ -308,6 +308,48 @@ This project proposes a hybrid deep learning framework combining:
 - Graph Neural Networks (GNN)
 - Transformer Models
 - Adversarial Training
++------------------+
+|   Raw Dataset    |
+| (CSV File Input) |
++--------+---------+
+         |
+         v
++---------------------------+
+| Data Ingestion & EDA      |
+| (pandas)                  |
++-------------+-------------+
+              |
+              v
++---------------------------+
+| Data Preprocessing        |
+| - Cleaning                |
+| - Feature Split           |
+| - SMOTE Balancing         |
++-------------+-------------+
+              |
+              v
++---------------------------+
+| Model Training            |
+| Random Forest Classifier  |
++-------------+-------------+
+              |
+              v
++---------------------------+
+| Model Evaluation          |
+| Metrics + Visualization   |
++-------------+-------------+
+              |
+              v
++---------------------------+
+| Model Serialization       |
+| (joblib → .pkl file)      |
++-------------+-------------+
+              |
+              v
++---------------------------+
+| Inference Engine          |
+| (New Data Prediction)     |
++---------------------------+
 
 ---
 
