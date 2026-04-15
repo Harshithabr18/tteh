@@ -295,6 +295,40 @@ This project uses an advanced deep learning–based methodology combined with sc
 ---
 
 ## ⚡ Live Workflow Animation
+## ⚙️ Live Workflow Architecture
+
+```mermaid
+flowchart TD
+
+A[Raw Dataset CSV] --> B[Data Ingestion]
+
+B --> C[Exploratory Data Analysis]
+
+C --> D[Data Preprocessing]
+
+D --> D1[Data Cleaning]
+D --> D2[Feature Engineering]
+D --> D3[Data Balancing SMOTE]
+
+D --> E[Train Test Split]
+
+E --> F[Model Training Random Forest]
+
+F --> G[Model Evaluation]
+
+G --> H{Performance OK?}
+
+H -- No --> F
+H -- Yes --> I[Model Serialization]
+
+I --> J[Model Deployment API]
+
+J --> K[User Input Data]
+
+K --> L[Prediction Engine]
+
+L --> M[Output Results]
+```
 
 ![Workflow Animation](images/workflow.gif)
 ## 📌 System Architecture
