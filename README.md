@@ -297,61 +297,21 @@ This project uses an advanced deep learning–based methodology combined with sc
 ## ⚡ Live Workflow Animation
 
 ![Workflow Animation](images/workflow.gif)
-
----
-
 ## 📌 System Architecture
 
-![System Architecture](images/architecture.png)
+flowchart TD
 
-This project proposes a hybrid deep learning framework combining:
-- Graph Neural Networks (GNN)
-- Transformer Models
-- Adversarial Training
-+------------------+
-|   Raw Dataset    |
-| (CSV File Input) |
-+--------+---------+
-         |
-         v
-+---------------------------+
-| Data Ingestion & EDA      |
-| (pandas)                  |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-| Data Preprocessing        |
-| - Cleaning                |
-| - Feature Split           |
-| - SMOTE Balancing         |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-| Model Training            |
-| Random Forest Classifier  |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-| Model Evaluation          |
-| Metrics + Visualization   |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-| Model Serialization       |
-| (joblib → .pkl file)      |
-+-------------+-------------+
-              |
-              v
-+---------------------------+
-| Inference Engine          |
-| (New Data Prediction)     |
-+---------------------------+
+A[Raw Dataset (CSV File Input)] --> B[Data Ingestion & EDA (pandas)]
+B --> C[Data Preprocessing]
 
----
+C --> C1[Cleaning]
+C --> C2[Feature Split]
+C --> C3[SMOTE Balancing]
+
+C --> D[Model Training (Random Forest Classifier)]
+D --> E[Model Evaluation (Metrics + Visualization)]
+E --> F[Model Serialization (joblib → .pkl file)]
+F --> G[Inference Engine (New Data Prediction)]
 
 ## ⚙️ Methodology Overview
 
