@@ -298,6 +298,7 @@ This project uses an advanced deep learning–based methodology combined with sc
 
 ![Workflow Animation](images/workflow.gif)
 ## 📌 System Architecture
+## 📌 System Architecture
 
 ```mermaid
 flowchart TD
