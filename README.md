@@ -299,9 +299,11 @@ This project uses an advanced deep learning–based methodology combined with sc
 ![Workflow Animation](images/workflow.gif)
 ## 📌 System Architecture
 
+```mermaid
 flowchart TD
 
 A[Raw Dataset (CSV File Input)] --> B[Data Ingestion & EDA (pandas)]
+
 B --> C[Data Preprocessing]
 
 C --> C1[Cleaning]
@@ -309,10 +311,13 @@ C --> C2[Feature Split]
 C --> C3[SMOTE Balancing]
 
 C --> D[Model Training (Random Forest Classifier)]
-D --> E[Model Evaluation (Metrics + Visualization)]
-E --> F[Model Serialization (joblib → .pkl file)]
-F --> G[Inference Engine (New Data Prediction)]
 
+D --> E[Model Evaluation (Metrics + Visualization)]
+
+E --> F[Model Serialization (joblib → .pkl)]
+
+F --> G[Inference Engine (New Data Prediction)]
+```
 ## ⚙️ Methodology Overview
 
 ![Pipeline](images/pipeline.png)
