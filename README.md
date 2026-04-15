@@ -294,43 +294,6 @@ This project uses an advanced deep learning–based methodology combined with sc
 
 ---
 
-## ⚡ Live Workflow Animation
-## ⚙️ Live Workflow Architecture
-
-```mermaid
-flowchart TD
-
-A[Raw Dataset CSV] --> B[Data Ingestion]
-
-B --> C[Exploratory Data Analysis]
-
-C --> D[Data Preprocessing]
-
-D --> D1[Data Cleaning]
-D --> D2[Feature Engineering]
-D --> D3[Data Balancing SMOTE]
-
-D --> E[Train Test Split]
-
-E --> F[Model Training Random Forest]
-
-F --> G[Model Evaluation]
-
-G --> H{Performance OK?}
-
-H -- No --> F
-H -- Yes --> I[Model Serialization]
-
-I --> J[Model Deployment API]
-
-J --> K[User Input Data]
-
-K --> L[Prediction Engine]
-
-L --> M[Output Results]
-```
-
-![Workflow Animation](images/workflow.gif)
 ## 📌 System Architecture
 
 ```mermaid
@@ -353,8 +316,107 @@ E --> F[Model Serialization joblib pkl]
 F --> G[Inference Engine New Data Prediction]
 ```
 ## ⚙️ Methodology Overview
+## 🧠 Methodology Overview
 
-![Pipeline](images/pipeline.png)
+This project follows a structured machine learning pipeline to convert raw data into accurate predictions.
+
+---
+
+### 1️⃣ Data Collection
+- Dataset is collected in CSV format  
+- Serves as the input for the pipeline  
+
+---
+
+### 2️⃣ Data Ingestion & EDA
+- Load dataset using pandas  
+- Analyze missing values and structure  
+- Visualize patterns using graphs  
+
+---
+
+### 3️⃣ Data Preprocessing
+
+#### 🔹 Data Cleaning
+- Handle missing values  
+- Remove duplicates  
+- Fix inconsistent data  
+
+#### 🔹 Feature Engineering
+- Split features and target  
+- Encode categorical variables  
+
+#### 🔹 Data Balancing
+- Apply SMOTE technique  
+- Handle class imbalance  
+
+---
+
+### 4️⃣ Model Training
+- Train using Random Forest Classifier  
+- Learn patterns from data  
+
+---
+
+### 5️⃣ Model Evaluation
+
+Evaluate using:
+
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
+
+#### 📐 Formulas
+
+**Accuracy**
+```
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+```
+
+**Precision**
+```
+Precision = TP / (TP + FP)
+```
+
+**Recall**
+```
+Recall = TP / (TP + FN)
+```
+
+---
+
+### 6️⃣ Model Serialization
+- Save model using joblib  
+- Export as `.pkl` file  
+
+---
+
+### 7️⃣ Inference Engine
+- Load saved model  
+- Predict on new data  
+
+---
+
+## 🔄 Workflow Diagram
+
+```mermaid
+flowchart TD
+A[Raw Data] --> B[EDA]
+B --> C[Preprocessing]
+C --> D[Model Training]
+D --> E[Evaluation]
+E --> F[Model Saving]
+F --> G[Prediction]
+```
+
+---
+
+## 🚀 Outcome
+- Clean data pipeline  
+- Balanced dataset  
+- Accurate predictions  
+- Ready for deployment  
 
 ---
 
