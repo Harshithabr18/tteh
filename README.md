@@ -531,3 +531,36 @@ F --> G[Prediction]
 ---
 
 ## 📂 Project Structure
+<div align="center">
+
+## 👥 Contributors
+
+Harshita BR ·  Pragna G · Akshata · Sunay N · Druthu KB
+ENG23CY0018 · ENG23CY0031 · ENG23CY0003 · ENG23CY0039 · ENG23CY0014  
+harshisuma1805@gmail.com · pragna122004@gmail.com · tattiakshata@gmail.com · Rajsunay1@gmail.com · druthukatna51@gmail.com
+
+
+**Department of Computer Science and Engineering (Cyber Security)**   
+School of Engineering, Dayananda Sagar University
+
+---
+## 🧑‍🏫 Mentor
+
+Dr. Prajwalasimha S N, Ph.D., Postdoc. (NewRIIS)
+Associate Professor
+
+
+**Department of Computer Science and Engineering (Cyber Security)**   
+School of Engineering, Dayananda Sagar University
+
+---
+## 🔬Laboratory
+
+**TTEH LAB · School of Engineering · Dayananda Sagar University**
+
+*Bangalore – 562112, Karnataka, India*
+
+&nbsp;
+
+[![IEEE Paper] (  https://doi.org/10.1109/INCET64471.2025.11139964 )
+</div>
