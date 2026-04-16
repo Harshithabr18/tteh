@@ -267,17 +267,7 @@ This project uses an advanced deep learning–based methodology combined with sc
 
 </div>
 
-# 🔐 Advanced Deep Learning for Real-Time Fraud Detection in Banking
 
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange?logo=tensorflow)
-![PyTorch](https://img.shields.io/badge/PyTorch-AI-red?logo=pytorch)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
-
-</p>
 
 ---
 
