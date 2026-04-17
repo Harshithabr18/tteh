@@ -536,27 +536,33 @@ F --> G[Prediction]
 <table>
 <tr>
 <td align="center">
-<b>Tisha Runwal</b><br>
+<b>Pragna.G</b><br>
 ENG23CY0042<br>
-<a href="mailto:tisharunwal@gmail.com">tisharunwal@gmail.com</a>
+<a href="mailto:pragna122004@gmail.com">tisharunwal@gmail.com</a>
 </td>
 
 <td align="center">
-<b>Vaishnavi Shetty</b><br>
+<b>Harshitha.B.R</b><br>
 ENG23CY0045<br>
-<a href="mailto:vaishnaviapshetty@gmail.com">vaishnaviapshetty@gmail.com</a>
+<a href="mailto:harshisuma1805@gmail.com">vaishnaviapshetty@gmail.com</a>
 </td>
 
 <td align="center">
-<b>Chandana A N</b><br>
+<b>Akshata</b><br>
 ENG23CY0056<br>
-<a href="mailto:chandananatesh1@gmail.com">chandananatesh1@gmail.com</a>
+<a href="mailto:tattiakshata@gmail.com">chandananatesh1@gmail.com</a>
 </td>
 
 <td align="center">
-<b>Gagana V</b><br>
+<b>Sunay</b><br>
 ENG23CY0016<br>
-<a href="mailto:gaganagaganav2702@gmail.com">gaganagaganav2702@gmail.com</a>
+<a href="mailto:Rajsunay1@gmail.com">gaganagaganav2702@gmail.com</a>
+</td>
+
+<td align="center">
+<b>Druthu</b><br>
+ENG23CY0016<br>
+<a href="mailto:druthukatna51@gmail.com">gaganagaganav2702@gmail.com</a>
 </td>
 </tr>
 </table>
@@ -592,4 +598,5 @@ Dayananda Sagar University
 
 ## 📄 IEEE Paper
 
-_Add your paper link here_  
+**DOI:** https://doi.org/10.1109/INCET64471.2025.11139964
+
