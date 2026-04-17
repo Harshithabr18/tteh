@@ -531,3 +531,65 @@ F --> G[Prediction]
 ---
 
 ## 📂 Project Structure
+## 👥 Contributors
+
+<table>
+<tr>
+<td align="center">
+<b>Tisha Runwal</b><br>
+ENG23CY0042<br>
+<a href="mailto:tisharunwal@gmail.com">tisharunwal@gmail.com</a>
+</td>
+
+<td align="center">
+<b>Vaishnavi Shetty</b><br>
+ENG23CY0045<br>
+<a href="mailto:vaishnaviapshetty@gmail.com">vaishnaviapshetty@gmail.com</a>
+</td>
+
+<td align="center">
+<b>Chandana A N</b><br>
+ENG23CY0056<br>
+<a href="mailto:chandananatesh1@gmail.com">chandananatesh1@gmail.com</a>
+</td>
+
+<td align="center">
+<b>Gagana V</b><br>
+ENG23CY0016<br>
+<a href="mailto:gaganagaganav2702@gmail.com">gaganagaganav2702@gmail.com</a>
+</td>
+</tr>
+</table>
+
+---
+
+### 🏫 Department  
+**Department of Computer Science and Engineering (Cyber Security)**  
+School of Engineering, Dayananda Sagar University  
+
+---
+
+## 🧑‍🏫 Mentor
+
+**Dr. Prajwalasimha S N**  
+_Ph.D., Postdoc. (NewRIIS)_  
+Associate Professor  
+
+Department of Computer Science and Engineering (Cyber Security)  
+School of Engineering, Dayananda Sagar University  
+
+---
+
+## 🔬 Laboratory
+
+**TTEH LAB**  
+School of Engineering  
+Dayananda Sagar University  
+
+📍 Bangalore – 562112, Karnataka, India  
+
+---
+
+## 📄 IEEE Paper
+
+_Add your paper link here_  
