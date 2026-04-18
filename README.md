@@ -87,7 +87,7 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 ---
 
-# 📖  Literature Survey
+## 📖  Literature Survey
 
 
 - **Traditional ML Models:** Logistic Regression, Decision Trees, Random Forest, SVM  
@@ -126,7 +126,7 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 ---
 
-# 🔄  Methodology & Key Components
+## 🔄  Methodology & Key Components
 
 
 
@@ -153,7 +153,7 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 ---
 
-# 📌  System Architecture
+## 📌  System Architecture
 
 
 
@@ -179,7 +179,7 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 🤖 Model Design
+## 🤖 Model Design
 
 
 
@@ -212,7 +212,7 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 🧪  Tech Stack
+## 🧪  Tech Stack
 
 
 
@@ -238,7 +238,7 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 📊  Results & Analysis
+## 📊  Results & Analysis
 
 
 
@@ -263,7 +263,7 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 🏁  Conclusion
+## 🏁  Conclusion
 
 
 
@@ -287,7 +287,7 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 👥 Contributors & Details
+## 👥 Contributors & Details
 <table>
 <tr>
 <td align="center">
