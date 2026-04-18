@@ -93,10 +93,7 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 <h1 align="left">📐 Mathematical Modeling & Core Equations</h1>
 
-## 📐 Mathematical Modeling (1-Slide Summary)
-
 ### 🔹 Core Representation
-
 $$
 G = (V, E)
 $$
