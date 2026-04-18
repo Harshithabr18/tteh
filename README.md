@@ -346,7 +346,7 @@ ENG23CY0003<br>
 </td>
 
 <td align="center">
-<b>Sunay</b><br>
+<b>Sunay N</b><br>
 ENG23CY0039<br>
 <a href="mailto:Rajsunay1@gmail.com">Rajsunay1@gmail.com</a>
 </td>
