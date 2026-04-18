@@ -38,14 +38,7 @@
 
 <div align="left">
 
-
-The rapid growth of digital banking has increased the risk of sophisticated financial fraud, making traditional rule-based systems less effective in handling high-volume, real-time transactions.  
-
-This project proposes an **advanced deep learning framework for real-time fraud detection**, designed to identify suspicious activities with high accuracy and low latency. It combines **Apache Kafka for real-time data streaming**, **feature engineering**, and powerful models such as **RNNs / Transformers**, **Graph Neural Networks (GNNs)**, and **Autoencoders / Isolation Forests** for anomaly detection.  
-
-The system is deployed on scalable cloud platforms (**AWS / Azure / GCP**) with strong **MLOps practices** for continuous monitoring and improvement.  
-
-Overall, the solution aims to achieve **high detection accuracy**, **low false positives**, and **real-time fraud prevention**, enhancing security and customer trust in banking systems.
+This project presents an AI-driven fraud detection system that uses graph-based modeling and deep learning to identify fraudulent financial transactions more effectively than traditional approaches. Instead of analyzing transactions individually, the system represents users and transactions as a connected graph, enabling it to capture hidden relationships and complex fraud patterns. By leveraging Graph Neural Networks (GCN) along with attention mechanisms, the model learns both local and global interaction patterns within the data. The system is trained using a hybrid loss function to improve accuracy and robustness, and it generates real-time fraud predictions evaluated using metrics such as precision, recall, and F1-score. Overall, the approach enhances detection performance, scalability, and adaptability for modern digital payment systems.
 
 <br/>
 
