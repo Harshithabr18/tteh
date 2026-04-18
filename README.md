@@ -245,27 +245,6 @@ This project uses an advanced deep learning–based methodology combined with sc
 
 <div align="left">
 
-## 8. Conclusion
-
-### **Summary of Findings**
-- Initial rule-based classification labeled 98.7% profiles as 'Fake' and only 1.3% as 'Real'  
-- Indicates overly strict rules, likely misclassifying incomplete profiles rather than detecting true fraud  
-
-### **Impact and Significance**
-- High false-positive rate highlights need for significant refinement  
-- Direct deployment may negatively impact user experience  
-- Emphasizes importance of balanced rules and proper thresholds  
-
-### **Next Steps**
-- Refine rule set and improve feature engineering  
-- Explore machine learning approaches for better accuracy  
-- Develop a balanced model to correctly distinguish fake and legitimate profiles  
-
-<br/>
-
-`Conclusion` · `Findings` · `Model Improvement` · `Fraud Detection` · `Future Scope`
-
-
 ## 📌 System Architecture
 
 ```mermaid
@@ -359,7 +338,27 @@ F --> G[Inference Engine New Data Prediction]
 - Model prioritizes **precision over recall**, ensuring fewer false alerts  
 - **Class imbalance** significantly impacts performance metrics  
 - **SMOTE improves minority class detection**, but further tuning is needed  
-- Trade-off exists between **security (recall)** and **user experience (precision)**  
+- Trade-off exists between **security (recall)** and **user experience (precision)** 
+
+## 8. Conclusion
+
+### **Summary of Findings**
+- The hybrid model combining **GNN and Transformer architectures** achieved high overall accuracy (~99.95%)  
+- Strong **precision (96%)** indicates reliable fraud detection with minimal false alarms  
+- However, **recall (80%)** reveals that some fraud cases remain undetected  
+- Severe class imbalance significantly influenced model behavior and evaluation metrics  
+
+### **Impact and Significance**
+- The model is effective in **minimizing false positives**, ensuring better user experience  
+- Missed fraud cases highlight a **critical risk in real-world financial systems**  
+- Demonstrates the importance of using **appropriate metrics (Precision, Recall, F1)** instead of relying solely on accuracy  
+- Integration of **SMOTE and adversarial training** improves robustness and fairness  
+
+### **Next Steps**
+- Improve **recall** through hyperparameter tuning and advanced sampling techniques  
+- Experiment with **ensemble or more advanced deep learning models**  
+- Optimize the system for **real-time deployment and scalability**  
+- Further strengthen the **security layer with advanced zero-trust and quantum-resilient mechanisms**  
 
 ## 📂 Project Structure
 ## 👥 Contributors
