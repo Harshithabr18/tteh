@@ -57,7 +57,7 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
  <h1 align="left">📚 Table of Contents</h1>
 
 1. Introduction  
-2. Literature Survey  
+2. Mathematical Modeling & Core Equations
 3. Methodology & Key Components  
 4. System Architecture  
 5. Model Design  
@@ -347,12 +347,12 @@ ENG23CY0003<br>
 
 <td align="center">
 <b>Sunay</b><br>
-ENG23CY0016<br>
+ENG23CY0039<br>
 <a href="mailto:Rajsunay1@gmail.com">Rajsunay1@gmail.com</a>
 </td>
 
 <td align="center">
-<b>Druthu</b><br>
+<b>Druthu Katna</b><br>
 ENG23CY0014<br>
 <a href="mailto:druthukatna51@gmail.com">druthukatna51@gmail.com</a>
 </td>
