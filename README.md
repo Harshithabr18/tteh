@@ -544,7 +544,7 @@ ENG23CY0031<br>
 <td align="center">
 <b>Harshitha.B.R</b><br>
 ENG23CY0018<br>
-<a href="mailto:harshisuma1805@gmail.com">:harshisuma1805@gmail.com</a>
+<a href="mailto:harshisuma1805@gmail.com">harshisuma1805@gmail.com</a>
 </td>
 
 <td align="center">
