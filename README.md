@@ -523,11 +523,16 @@ F --> G[Prediction]
 
 ## 🧪 Tech Stack
 
-- Python  
-- TensorFlow / PyTorch  
-- Scikit-learn  
-- NetworkX  
-
+| Layer                | Technologies                          |
+|---------------------|--------------------------------------|
+| Language            | Python                               |
+| Data Processing     | Pandas, NumPy                        |
+| Imbalance Handling  | SMOTE                                |
+| ML Models           | GNN, Transformers                    |
+| Frameworks          | PyTorch / TensorFlow                 |
+| Security            | Zero Trust Architecture              |
+| Visualization       | Matplotlib, Seaborn                  |
+| Tools               | Jupyter, GitHub                      |
 ---
 
 ## 📂 Project Structure
