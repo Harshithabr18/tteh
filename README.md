@@ -1,5 +1,4 @@
 
-# 🎯 Slide 1: Title
 
 <div align="center">
 
@@ -39,7 +38,7 @@
 
 ---
 
-# 🔭 Slide 2: Overview
+# 🔭Overview
 
 <div align="left">
 
@@ -61,11 +60,11 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 
 ---
 
-# 📚 Slide 3: Table of Contents
+# 📚 Table of Contents
 
 <div align="left">
 
-## 📚 Table of Contents
+
 
 1. **Introduction**  
 2. **Methodology & Key Components**  
@@ -80,11 +79,11 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 
 ---
 
-# 📌 Slide 4: Introduction
+# 📌 Introduction
 
 <div align="left">
 
-## 1. Introduction
+
 
 ### Problem Statement
 The banking industry faces increasingly sophisticated fraud, causing significant financial losses and reducing customer trust. Traditional rule-based and statistical systems are often reactive, struggle to adapt to evolving fraud patterns, and generate high false positives, disrupting legitimate transactions. The scale and speed of modern financial data demand a more intelligent, real-time fraud detection approach.
@@ -106,9 +105,8 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 ---
 
-# 📖 Slide 5: Literature Survey
+# 📖  Literature Survey
 
-## 📖 Literature Survey
 
 - **Traditional ML Models:** Logistic Regression, Decision Trees, Random Forest, SVM  
   - Simple and interpretable but struggle with complex patterns and imbalanced data  
@@ -146,9 +144,9 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 ---
 
-# 🔄 Slide 6: Methodology & Key Components
+# 🔄  Methodology & Key Components
 
-## 🔄 Methodology & Key Components
+
 
 ### ⚙️ Methodology
 - **Data Collection:** Transaction dataset (CSV with fraud & legitimate cases)  
@@ -173,9 +171,9 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 ---
 
-# 📌 Slide 7: System Architecture
+# 📌  System Architecture
 
-## 📌 System Architecture
+
 
 ```mermaid
 flowchart TD
@@ -199,9 +197,9 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 🤖 Slide 8: Model Design
+# 🤖 Model Design
 
-## 🤖 Model Design
+
 
 - Hybrid deep learning architecture combining  
   **Graph Neural Networks (GNN)** + **Transformer Models**
@@ -232,9 +230,9 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 🧪 Slide 9: Tech Stack
+# 🧪  Tech Stack
 
-## 🧪 Tech Stack
+
 
 | Layer                | Technologies                          |
 |---------------------|--------------------------------------|
@@ -258,9 +256,9 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 📊 Slide 10: Results & Analysis
+# 📊  Results & Analysis
 
-## 📊 Results & Analysis
+
 
 | Metric / Finding | Value / Result | Analysis & Implications |
 | :--- | :--- | :--- |
@@ -283,9 +281,9 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 🏁 Slide 11: Conclusion
+# 🏁  Conclusion
 
-## 8. Conclusion
+
 
 ### **Summary of Findings**
 - The hybrid model combining **GNN and Transformer architectures** achieved high overall accuracy (~99.95%)  
@@ -307,9 +305,8 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-# 👥 Slide 12: Contributors & Details
+# 👥 Contributors & Details
 
-## 👥 Contributors
 
 (Keep your table exactly as it is here)
 
