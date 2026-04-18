@@ -52,45 +52,18 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 `Real-Time Fraud Detection` · `Deep Learning` · `GNN` · `Transformers` · `Anomaly Detection` · `Kafka` · `Cloud` · `MLOps`
 
 </div>
-
 ## 📚 Table of Contents
 
 - [📌 Introduction](#-introduction)  
-  - [Problem Statement](#problem-statement)  
-  - [Project Goal](#project-goal)  
-
 - [📖 Literature Survey](#-literature-survey)  
-  - [Key Challenges Identified](#️-key-challenges-identified)  
-  - [Research Gap](#-research-gap)  
-  - [Project Contribution](#-project-contribution)  
-
 - [🔄 Methodology & Key Components](#-methodology--key-components)  
-  - [Methodology](#️-methodology)  
-  - [Key Components](#-key-components)  
-
 - [📌 System Architecture](#-system-architecture)  
-
 - [🤖 Model Design](#-model-design)  
-  - [Workflow](#-workflow)  
-
 - [🧪 Tech Stack](#-tech-stack)  
-
 - [📊 Results & Analysis](#-results--analysis)  
-  - [Key Takeaways](#-key-takeaways)  
-
 - [🏁 Conclusion](#-conclusion)  
-  - [Summary of Findings](#summary-of-findings)  
-  - [Impact and Significance](#impact-and-significance)  
-  - [Next Steps](#next-steps)  
-
 - [👥 Contributors & Details](#-contributors--details)  
-- [🏫 Department](#-department)  
-- [🧑‍🏫 Mentor](#-mentor)  
-- [🔬 Laboratory](#-laboratory)  
 - [📄 IEEE Paper](#-ieee-paper)  
-# 📌 Introduction
-
-<div align="left">
 
 
 
