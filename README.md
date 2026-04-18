@@ -93,30 +93,75 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 <h1 align="left">📐 Mathematical Modeling & Core Equations</h1>
 
+## 📐 Mathematical Modeling (Summary with Purpose)
+
 ### 🔹 Graph Representation
+
 $$
 G = (V, E)
 $$
+
 ➡️ **Purpose:** Model transactions as a network  
 ➡️ **Used in:** Capturing relationships between users/accounts  
 
 ---
 
 ### 🔹 GCN Layer
+
 $$
 H^{(l+1)} = \sigma \left( D^{-1/2} A D^{-1/2} H^{(l)} W^{(l)} \right)
 $$
+
 ➡️ **Purpose:** Learn features from connected nodes  
-➡️ **Used in:** Detecting suspicious patterns  
+➡️ **Used in:** Detecting suspicious patterns in transaction graphs  
 
 ---
 
 ### 🔹 Self-Attention
+
 $$
 Attention(Q,K,V)=softmax\left(\frac{QK^T}{\sqrt{d_k}}\right)V
 $$
+
 ➡️ **Purpose:** Focus on important interactions  
-➡️ **Used in:** Capturing global dependencies  
+➡️ **Used in:** Capturing global dependencies in data  
+
+---
+
+### 🔹 Prediction Layer
+
+$$
+y = softmax(WZ + b)
+$$
+
+➡️ **Purpose:** Classify transaction (fraud / non-fraud)  
+➡️ **Used in:** Final decision output  
+
+---
+
+### 🔹 Loss + Optimization
+
+$$
+L = L_{CE} + \lambda_1 L_{graph} + \lambda_2 L_{adv}
+$$
+
+$$
+\theta = \theta - \eta \nabla L
+$$
+
+➡️ **Purpose:** Minimize error & improve model robustness  
+➡️ **Used in:** Training phase  
+
+---
+
+### 🔹 Evaluation Metric
+
+$$
+F1 = 2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}
+$$
+
+➡️ **Purpose:** Balance precision & recall  
+➡️ **Used in:** Measuring fraud detection performance  
 
 
 <h1 align="left"> 🔄  Methodology & Key Components </h1>
