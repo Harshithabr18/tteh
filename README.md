@@ -11,17 +11,13 @@
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red?style=for-the-badge&logo=pytorch)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge&logo=tensorflow)
-![Kafka](https://img.shields.io/badge/Streaming-Apache%20Kafka-black?style=for-the-badge&logo=apachekafka)
-![Spark](https://img.shields.io/badge/Processing-Apache%20Spark-yellow?style=for-the-badge&logo=apachespark)
-
-![GNN](https://img.shields.io/badge/Graph%20Learning-GNN-purple?style=for-the-badge)
-![Transformers](https://img.shields.io/badge/Models-Transformers-blueviolet?style=for-the-badge)
-![Anomaly Detection](https://img.shields.io/badge/Detection-Anomaly-green?style=for-the-badge)
-![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20GCP-blue?style=for-the-badge)
-![MLOps](https://img.shields.io/badge/MLOps-CI%2FCD%20%7C%20Monitoring-grey?style=for-the-badge)
+![GNN](https://img.shields.io/badge/Model-Graph%20Neural%20Network-purple?style=for-the-badge)
+![Transformer](https://img.shields.io/badge/Model-Transformer-blueviolet?style=for-the-badge)
+![RNN](https://img.shields.io/badge/Model-RNN-orange?style=for-the-badge)
+![Autoencoder](https://img.shields.io/badge/Model-Autoencoder-green?style=for-the-badge)
+![IsolationForest](https://img.shields.io/badge/Model-Isolation%20Forest-teal?style=for-the-badge)
+![Hybrid](https://img.shields.io/badge/Architecture-Hybrid%20Model-red?style=for-the-badge)
+![Adversarial](https://img.shields.io/badge/Training-Adversarial-black?style=for-the-badge)
 
 <br/><br/>
 
