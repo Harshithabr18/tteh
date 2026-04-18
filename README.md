@@ -533,6 +533,15 @@ F --> G[Prediction]
 | Security            | Zero Trust Architecture              |
 | Visualization       | Matplotlib, Seaborn                  |
 | Tools               | Jupyter, GitHub                      |
+
+- Built using **Python**, enabling seamless integration of data processing, machine learning, and deep learning components.  
+- Efficient data handling achieved with **Pandas** and **NumPy** for preprocessing and transformation.  
+- Addressed class imbalance using **SMOTE**, improving model fairness and performance.  
+- Leveraged **Graph Neural Networks (GNN)** and **Transformer models** for capturing complex relationships and sequential patterns.  
+- Implemented using powerful frameworks like **PyTorch / TensorFlow** for scalable deep learning.  
+- Designed with a **Zero Trust Architecture**, enhancing system security and resilience.  
+- Data insights and results visualized using **Matplotlib** and **Seaborn**.  
+- Developed and managed using **Jupyter Notebook / Google Colab** and version-controlled via **GitHub**.
 ---
 
 ## 📂 Project Structure
