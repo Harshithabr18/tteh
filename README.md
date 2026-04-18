@@ -93,90 +93,44 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 <h1 align="left">📐 Mathematical Modeling & Core Equations</h1>
 
+## 📐 Mathematical Modeling (1-Slide Summary)
 
-### 🔑 Key Formulations Used in the Project
+### 🔹 Core Representation
 
-#### 🔹 Data Preprocessing
-- **Min-Max Normalization**
-\[
-x' = \frac{x - x_{min}}{x_{max} - x_{min}}
-\]
-
----
-
-#### 🔹 Graph-Based Representation
-- Transactions modeled as graph:
-\[
+$$
 G = (V, E)
-\]
+$$
 
----
+### 🔹 Model (GCN + Attention)
 
-#### 🔹 Deep Learning Models
-
-- **Graph Neural Network (GCN)**
-\[
+$$
 H^{(l+1)} = \sigma \left( D^{-1/2} A D^{-1/2} H^{(l)} W^{(l)} \right)
-\]
-
-- **Transformer Self-Attention**
-\[
+$$
+$$
 Attention(Q,K,V)=softmax\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-\]
+$$
 
----
+### 🔹 Prediction
 
-#### 🔹 Prediction Layer
-- Fraud classification output:
-\[
+$$
 y = softmax(WZ + b)
-\]
+$$
 
----
+### 🔹 Optimization
 
-#### 🔹 Model Robustness
-- **Adversarial Training**
-\[
-x' = x + \epsilon \cdot sign(\nabla_x J(x,y))
-\]
+$$
+L = L_{CE} + \lambda_1 L_{graph} + \lambda_2 L_{adv}
+$$
+$$
+\theta = \theta - \eta \nabla L
+$$
 
----
+### 🔹 Key Metric
 
-#### 🔹 Optimization
+$$
+F1 = 2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}
+$$
 
-- **Total Loss Function**
-\[
-L_{total}=L_{CE}+\lambda_1L_{graph}+\lambda_2L_{adv}
-\]
-
-- **Parameter Update Rule**
-\[
-\theta = \theta - \eta \nabla L_{total}
-\]
-
----
-
-### 📊 Evaluation Metrics
-
-- **Precision**
-\[
-\frac{TP}{TP+FP}
-\]
-
-- **Recall**
-\[
-\frac{TP}{TP+FN}
-\]
-
-- **F1 Score**
-\[
-2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}
-\]
-
-- **AUC-ROC**
-\[
-AUC = \int_0^1 TPR(FPR)\,d(FPR)
-\]
 
 <h1 align="left"> 🔄  Methodology & Key Components </h1>
 
