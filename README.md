@@ -92,43 +92,109 @@ The goal of this project is to develop an **advanced deep learning framework for
 ---
 
 <h1 align="left">📖  Literature Survey</h1>
+## 🔑 Key Equations Included in This Project
 
+### 1. Min-Max Feature Normalization
+Used to scale transaction values before training.
 
-- **Traditional ML Models:** Logistic Regression, Decision Trees, Random Forest, SVM  
-  - Simple and interpretable but struggle with complex patterns and imbalanced data  
-
-- **Anomaly Detection Methods:** Autoencoders, Isolation Forest, Clustering  
-  - Effective for detecting unknown fraud but may have lower accuracy  
-
-- **Deep Learning Approaches:** RNNs, CNNs  
-  - Capture sequential behavior and complex patterns, but are computationally expensive  
-
-- **Hybrid Models:** Combination of ML + DL + anomaly detection  
-  - Provide better accuracy and adaptability compared to standalone models  
+\[
+x' = \frac{x - x_{min}}{x_{max} - x_{min}}
+\]
 
 ---
 
-### ⚠️ Key Challenges Identified
-- Severe **class imbalance** (fraud cases are very rare)  
-- Difficulty in detecting **new/unknown fraud patterns**  
-- High **false positives** affecting user experience  
-- Need for **real-time, low-latency detection**  
+### 2. Graph Representation of Transactions
+Accounts and transactions are modeled as a graph.
+
+\[
+G = (V, E)
+\]
+
+Where:  
+- \(V\) = Users / Accounts  
+- \(E\) = Transactions  
 
 ---
 
-### 💡 Research Gap
-- Lack of integration of **relational (GNN) + sequential (Transformer)** models  
-- Limited focus on **real-time streaming systems**  
-- Need for **robust and scalable fraud detection frameworks**  
+### 3. Graph Neural Network (GCN) Layer
+Used to learn hidden fraud relationships between accounts.
+
+\[
+H^{(l+1)} = \sigma \left( D^{-1/2} A D^{-1/2} H^{(l)} W^{(l)} \right)
+\]
 
 ---
 
-### 🚀 Project Contribution
-- Hybrid model using **GNN + Transformer**  
-- Real-time processing with streaming architecture  
-- Improved detection using **SMOTE + adversarial training**  
+### 4. Transformer Self-Attention
+Used to capture sequential fraud patterns.
+
+\[
+Attention(Q,K,V)=softmax\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+\]
 
 ---
+
+### 5. Final Fraud Prediction
+Probability of Fraud / Legitimate transaction.
+
+\[
+y = softmax(WZ + b)
+\]
+
+---
+
+### 6. Adversarial Training Equation
+Used to improve model robustness.
+
+\[
+x' = x + \epsilon \cdot sign(\nabla_x J(x,y))
+\]
+
+---
+
+### 7. Total Loss Function
+Combined loss for classification + graph + adversarial learning.
+
+\[
+L_{total}=L_{CE}+\lambda_1L_{graph}+\lambda_2L_{adv}
+\]
+
+---
+
+### 8. Parameter Update Rule
+Used during training.
+
+\[
+\theta = \theta - \eta \nabla L_{total}
+\]
+
+---
+
+## 📊 Evaluation Equations
+
+### 9. Precision
+
+\[
+Precision = \frac{TP}{TP+FP}
+\]
+
+### 10. Recall
+
+\[
+Recall = \frac{TP}{TP+FN}
+\]
+
+### 11. F1 Score
+
+\[
+F1 = 2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}
+\]
+
+### 12. AUC-ROC
+
+\[
+AUC = \int_0^1 TPR(FPR)\,d(FPR)
+\]
 
 <h1 align="left"> 🔄  Methodology & Key Components </h1>
 
