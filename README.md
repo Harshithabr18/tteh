@@ -42,8 +42,6 @@ This project presents an AI-driven fraud detection system that uses graph-based 
 
 <br/>
 
-`Real-Time Fraud Detection` · `Deep Learning` · `GNN` · `Transformers` · `Anomaly Detection` · `Kafka` · `Cloud` · `MLOps`
-
 </div>
 
 
