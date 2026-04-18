@@ -105,11 +105,43 @@ The goal of this project is to develop an **advanced deep learning framework for
 `Fraud Detection` · `Deep Learning` · `Real-Time Systems` · `Banking Security` · `AI Models`
 
 </div>
-</div>
+```markdown id="lit1slide"
+## 📖 Literature Survey
+
+- **Traditional ML Models:** Logistic Regression, Decision Trees, Random Forest, SVM  
+  → Simple and interpretable but struggle with complex patterns and imbalanced data  
+
+- **Anomaly Detection Methods:** Autoencoders, Isolation Forest, Clustering  
+  → Effective for detecting unknown fraud but may have lower accuracy  
+
+- **Deep Learning Approaches:** RNNs, CNNs  
+  → Capture sequential behavior and complex patterns, but are computationally expensive  
+
+- **Hybrid Models:** Combination of ML + DL + anomaly detection  
+  → Provide better accuracy and adaptability compared to standalone models  
 
 ---
 
-<br/><br/><br/><br/><br/><br/>
+### ⚠️ Key Challenges Identified
+- Severe **class imbalance** (fraud cases are very rare)  
+- Difficulty in detecting **new/unknown fraud patterns**  
+- High **false positives** affecting user experience  
+- Need for **real-time, low-latency detection**  
+
+---
+
+### 💡 Research Gap
+- Lack of integration of **relational (GNN) + sequential (Transformer)** models  
+- Limited focus on **real-time streaming systems**  
+- Need for **robust and scalable fraud detection frameworks**  
+
+---
+
+### 🚀 Project Contribution
+- Hybrid model using **GNN + Transformer**  
+- Real-time processing with streaming architecture  
+- Improved detection using **SMOTE + adversarial training**  
+```
 
 <div align="left">
 
