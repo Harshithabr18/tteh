@@ -54,16 +54,16 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 </div>
 ## 📚 Table of Contents
 
-- 🔖 [Introduction](#introduction)
-- 📖 [Literature Survey](#literature-survey)
-- 🔄 [Methodology & Key Components](#methodology--key-components)
-- 📌 [System Architecture](#system-architecture)
-- 🤖 [Model Design](#model-design)
-- 🧪 [Tech Stack](#tech-stack)
-- 📊 [Results & Analysis](#results--analysis)
-- 🏁 [Conclusion](#conclusion)
-- 👥 [Contributors & Details](#contributors--details)
-- 📄 [IEEE Paper](#ieee-paper)
+1. Introduction  
+2. Literature Survey  
+3. Methodology & Key Components  
+4. System Architecture  
+5. Model Design  
+6. Tech Stack  
+7. Results & Analysis  
+8. Conclusion  
+9. Contributors & Details  
+10. IEEE Paper  
 
 <h1 align="left">📌 1. Introduction</h1>
  
