@@ -315,6 +315,8 @@ F --> G[Inference Engine New Data Prediction]
 
 ### 🔄 Workflow
 **Input Data → Preprocessing → GNN → Transformer → Fusion → Prediction**
+
+---
 ## 🧪 Tech Stack
 
 | Layer                | Technologies                          |
