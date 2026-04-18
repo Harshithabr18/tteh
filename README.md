@@ -328,15 +328,15 @@ F --> G[Inference Engine New Data Prediction]
 <table>
 <tr>
 <td align="center">
-<b>Pragna.G</b><br>
-ENG23CY0031<br>
-<a href="mailto:pragna122004@gmail.com">pragna122004@gmail.com</a>
+<b>Harshitha B R</b><br>
+ENG23CY0018<br>
+<a href="mailto:harshisuma1805@gmail.com">harshisuma1805@gmail.com</a>
 </td>
 
 <td align="center">
-<b>Harshitha.B.R</b><br>
-ENG23CY0018<br>
-<a href="mailto:harshisuma1805@gmail.com">harshisuma1805@gmail.com</a>
+<b>Pragna G</b><br>
+ENG23CY0031<br>
+<a href="mailto:pragna122004@gmail.com">pragna122004@gmail.com</a>
 </td>
 
 <td align="center">
