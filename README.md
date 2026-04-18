@@ -275,7 +275,7 @@ U1 -.->|Suspicious| U3
 - Implemented using powerful frameworks like **PyTorch / TensorFlow** for scalable deep learning.  
 - Designed with a **Zero Trust Architecture**, enhancing system security and resilience.  
 - Data insights and results visualized using **Matplotlib** and **Seaborn**.  
-- Developed and managed using ** Google Colab** and version-controlled via **GitHub**.
+- Developed and managed using **Google Colab** and version-controlled via **GitHub**.
 
 ---
 
