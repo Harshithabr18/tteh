@@ -340,6 +340,27 @@ F --> G[Inference Engine New Data Prediction]
 - Developed and managed using **Jupyter Notebook / Google Colab** and version-controlled via **GitHub**.
 ---
 
+## 📊 Results & Analysis
+
+| Metric / Finding | Value / Result | Analysis & Implications |
+| :--- | :--- | :--- |
+| **Initial Class Distribution** | **Legitimate (0):** 150,337<br>**Fraudulent (1):** 294 | 🚨 **Severe Imbalance:** The dataset is highly skewed, causing models to favor the majority class and overlook fraud cases. |
+| **Overall Accuracy** | **99.95%** | ⚠️ **Accuracy Paradox:** Despite being high, accuracy is misleading due to imbalance. Even a naive model could achieve similar results. |
+| **Precision (Fraud Class)** | **0.96 (96%)** | ✅ **High Confidence:** Fraud predictions are highly reliable, minimizing inconvenience to legitimate users. |
+| **Recall (Fraud Class)** | **0.80 (80%)** | ❗ **Critical Weakness:** 20% of fraud cases are missed, leading to potential financial losses. |
+| **F1-Score (Fraud Class)** | **0.87 (87%)** | ⚖️ **Balanced Performance:** Indicates decent trade-off, but affected by lower recall. |
+| **ROC-AUC Score** | **~0.898** | 📈 **Strong Discrimination:** Good ability to distinguish classes, but not optimal for high-security systems. |
+| **Confusion Matrix Breakdown** | **TN:** 30,061<br>**FP:** 2<br>**FN:** 13<br>**TP:** 51 | 🔍 **Conservative Model Behavior:** Minimizes false alarms but allows some fraud cases to go undetected. |
+| **Pipeline Optimization Applied** | **SMOTE Integration** | 🔧 **Improvement Strategy:** Balances dataset by generating synthetic fraud samples, enhancing recall and detection capability. |
+
+---
+
+### 🔍 Key Takeaways
+- Model prioritizes **precision over recall**, ensuring fewer false alerts  
+- **Class imbalance** significantly impacts performance metrics  
+- **SMOTE improves minority class detection**, but further tuning is needed  
+- Trade-off exists between **security (recall)** and **user experience (precision)**  
+
 ## 📂 Project Structure
 ## 👥 Contributors
 
