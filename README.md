@@ -42,7 +42,6 @@
 
 <div align="left">
 
-## 🔭 Overview
 
 The rapid growth of digital banking has increased the risk of sophisticated financial fraud, making traditional rule-based systems less effective in handling high-volume, real-time transactions.  
 
@@ -306,24 +305,70 @@ F --> G[Inference Engine New Data Prediction]
 ---
 
 # 👥 Contributors & Details
+<table>
+<tr>
+<td align="center">
+<b>Pragna.G</b><br>
+ENG23CY0031<br>
+<a href="mailto:pragna122004@gmail.com">pragna122004@gmail.com</a>
+</td>
 
+<td align="center">
+<b>Harshitha.B.R</b><br>
+ENG23CY0018<br>
+<a href="mailto:harshisuma1805@gmail.com">harshisuma1805@gmail.com</a>
+</td>
 
-(Keep your table exactly as it is here)
+<td align="center">
+<b>Akshata</b><br>
+ENG23CY0003<br>
+<a href="mailto:tattiakshata@gmail.com">tattiakshata@gmail.com</a>
+</td>
+
+<td align="center">
+<b>Sunay</b><br>
+ENG23CY0016<br>
+<a href="mailto:Rajsunay1@gmail.com">Rajsunay1@gmail.com</a>
+</td>
+
+<td align="center">
+<b>Druthu</b><br>
+ENG23CY0014<br>
+<a href="mailto:druthukatna51@gmail.com">druthukatna51@gmail.com</a>
+</td>
+</tr>
+</table>
+
+---
+
+### 🏫 Department  
+**Department of Computer Science and Engineering (Cyber Security)**  
+School of Engineering, Dayananda Sagar University  
 
 ---
 
 ## 🧑‍🏫 Mentor
+**Dr. Prajwalasimha S N**  
+_Ph.D., Postdoc. (NewRIIS)_  
+Associate Professor  
 
-**Dr. Prajwalasimha S N**
+Department of Computer Science and Engineering (Cyber Security)  
+School of Engineering, Dayananda Sagar University  
 
 ---
 
+
 ## 🔬 Laboratory
 
-**TTEH LAB**
+**TTEH LAB**  
+School of Engineering  
+Dayananda Sagar University  
+
+📍 Bangalore – 562112, Karnataka, India  
 
 ---
 
 ## 📄 IEEE Paper
 
 **DOI:** https://doi.org/10.1109/INCET64471.2025.11139964
+
