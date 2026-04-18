@@ -287,212 +287,34 @@ E --> F[Model Serialization joblib pkl]
 
 F --> G[Inference Engine New Data Prediction]
 ```
-## ⚙️ Methodology Overview
-## 🧠 Methodology Overview
+## 🤖 Model Design
 
-This project follows a structured machine learning pipeline to convert raw data into accurate predictions.
+- Hybrid deep learning architecture combining  
+  **Graph Neural Networks (GNN)** + **Transformer Models**
 
----
+- **GNN Layer**
+  - Captures relationships between entities (graph-structured data)
+  - Learns connectivity patterns and hidden dependencies
 
-### 1️⃣ Data Collection
-- Dataset is collected in CSV format  
-- Serves as the input for the pipeline  
+- **Transformer Layer**
+  - Processes sequential data (logs / events)
+  - Captures long-range dependencies using attention mechanism
 
----
+- **Feature Fusion**
+  - Outputs from GNN and Transformer are combined
+  - Creates a richer, context-aware representation
 
-### 2️⃣ Data Ingestion & EDA
-- Load dataset using pandas  
-- Analyze missing values and structure  
-- Visualize patterns using graphs  
+- **Adversarial Training**
+  - Introduces perturbed inputs during training
+  - Improves robustness against attacks and noise
 
----
-
-### 3️⃣ Data Preprocessing
-
-#### 🔹 Data Cleaning
-- Handle missing values  
-- Remove duplicates  
-- Fix inconsistent data  
-
-#### 🔹 Feature Engineering
-- Split features and target  
-- Encode categorical variables  
-
-#### 🔹 Data Balancing
-- Apply SMOTE technique  
-- Handle class imbalance  
+- **Output Layer**
+  - Classification / prediction (e.g., anomaly detection)
 
 ---
 
-### 4️⃣ Model Training
-- Train using Random Forest Classifier  
-- Learn patterns from data  
-
----
-
-### 5️⃣ Model Evaluation
-
-Evaluate using:
-
-- Accuracy  
-- Precision  
-- Recall  
-- F1-score  
-
-#### 📐 Formulas
-
-**Accuracy**
-```
-Accuracy = (TP + TN) / (TP + TN + FP + FN)
-```
-
-**Precision**
-```
-Precision = TP / (TP + FP)
-```
-
-**Recall**
-```
-Recall = TP / (TP + FN)
-```
-
----
-
-### 6️⃣ Model Serialization
-- Save model using joblib  
-- Export as `.pkl` file  
-
----
-
-### 7️⃣ Inference Engine
-- Load saved model  
-- Predict on new data  
-
----
-
-## 🔄 Workflow Diagram
-
-```mermaid
-flowchart TD
-A[Raw Data] --> B[EDA]
-B --> C[Preprocessing]
-C --> D[Model Training]
-D --> E[Evaluation]
-E --> F[Model Saving]
-F --> G[Prediction]
-```
-
----
-
-## 🚀 Outcome
-- Clean data pipeline  
-- Balanced dataset  
-- Accurate predictions  
-- Ready for deployment  
-
----
-
-## 🧹 Data Preprocessing
-
-![Preprocessing](images/preprocessing.png)
-
-### 📊 Formula Table
-
-| Concept | Formula | Description |
-|--------|--------|------------|
-| Normalization | x' = (x - xmin) / (xmax - xmin) | Feature scaling |
-| SMOTE | Synthetic sampling | Balance dataset |
-
----
-
-## 🔗 Graph-Based Transaction Representation
-
-![Graph](images/graph.png)
-
-### 📊 Formula Table
-
-| Concept | Formula |
-|--------|--------|
-| Graph | G = (V, E) |
-| Adjacency Matrix | Aij = 1 (if edge exists), else 0 |
-
----
-
-## 🧠 Graph Neural Network (GNN)
-
-![GNN](images/gnn.png)
-
-### 📊 Formula Table
-
-| Concept | Formula |
-|--------|--------|
-| GNN Layer | H(l+1) = σ(D⁻¹/² A D⁻¹/² H(l) W(l)) |
-
----
-
-## 🤖 Transformer-Based Fraud Detection
-
-![Transformer](images/transformer.png)
-
-### 📊 Formula Table
-
-| Concept | Formula |
-|--------|--------|
-| Attention | softmax(QKᵀ / √dk) V |
-
----
-
-## ⚔️ Adversarial Training
-
-![Adversarial](images/adversarial.png)
-
-### 📊 Formula Table
-
-| Concept | Formula |
-|--------|--------|
-| Adversarial Example | x' = x + ε sign(∇L(x,y)) |
-
----
-
-## 📉 Loss Function
-
-| Type | Formula |
-|------|--------|
-| Total Loss | L = LCE + λ1Lgraph + λ2Ladv |
-
----
-
-## 📈 Evaluation Metrics
-
-| Metric | Formula |
-|--------|--------|
-| Precision | TP / (TP + FP) |
-| Recall | TP / (TP + FN) |
-| F1 Score | 2PR / (P + R) |
-| AUC-ROC | ∫ TPR dFPR |
-
----
-
-## 🏆 Results
-
-| Metric | Value |
-|-------|------|
-| F1 Score | **98.3%** |
-| AUC-ROC | **99.1%** |
-| Robustness | **89.7%** |
-| Latency | **7.2 ms** |
-
----
-
-## 🎯 Key Contributions
-
-✔ Hybrid GNN + Transformer model  
-✔ Adversarial robustness  
-✔ Real-time fraud detection  
-✔ High accuracy & scalability  
-
----
-
+### 🔄 Workflow
+**Input Data → Preprocessing → GNN → Transformer → Fusion → Prediction**
 ## 🧪 Tech Stack
 
 | Layer                | Technologies                          |
