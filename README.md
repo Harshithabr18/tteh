@@ -113,20 +113,28 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 <div align="left">
 
-## 2. Methodology & Key Components
+## 🔄 Methodology & Key Components
 
-This project uses an advanced deep learning–based methodology combined with scalable infrastructure to enable real-time fraud detection. The system is designed to handle high-volume transaction data, detect complex fraud patterns, and ensure efficient performance.
+### ⚙️ Methodology
+- **Data Collection:** Transaction dataset (CSV with fraud & legitimate cases)  
+- **Preprocessing:** Cleaning, feature selection, normalization  
+- **Imbalance Handling:** SMOTE applied to balance fraud class  
+- **EDA:** Pattern analysis & visualization  
+- **Model Development:** Hybrid model (GNN + Transformer)  
+- **Adversarial Training:** Improves robustness against attacks/noise  
+- **Evaluation:** Accuracy, Precision, Recall, F1-score, ROC-AUC  
+- **Security:** Zero Trust principles for secure predictions  
 
-- **Real-Time Data Ingestion** using technologies like Apache Kafka for continuous transaction streaming  
-- **Feature Engineering** to transform raw data into meaningful behavioral, contextual, and relational features  
-- **Deep Learning Models** including RNNs/Transformers, Graph Neural Networks (GNNs), and anomaly detection techniques  
-- **Hybrid Models** combining deep learning with rule-based systems for improved accuracy  
-- **Scalable Infrastructure** using cloud platforms (AWS / Azure / GCP) with distributed computing  
-- **MLOps & Monitoring** for continuous training, deployment, and performance tracking  
+---
 
-<br/>
-
-`Kafka` · `Feature Engineering` · `Deep Learning` · `GNN` · `Hybrid Models` · `Cloud` · `MLOps`
+### 🧩 Key Components
+- **Data Layer:** Input dataset & preprocessing  
+- **Processing Layer:** Cleaning + SMOTE balancing  
+- **Model Layer:** GNN (relationships) + Transformer (sequences)  
+- **Training Layer:** Adversarial learning & optimization  
+- **Evaluation Layer:** Metrics & performance analysis  
+- **Security Layer:** Zero Trust validation  
+- **Output Layer:** Fraud detection results & insights  
 
 </div>
 
