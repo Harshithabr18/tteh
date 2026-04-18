@@ -53,27 +53,41 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 
 </div>
 
----
+## 📚 Table of Contents
 
-# 📚 Table of Contents
+- [📌 Introduction](#-introduction)  
+  - [Problem Statement](#problem-statement)  
+  - [Project Goal](#project-goal)  
 
-<div align="left">
+- [📖 Literature Survey](#-literature-survey)  
+  - [Key Challenges Identified](#️-key-challenges-identified)  
+  - [Research Gap](#-research-gap)  
+  - [Project Contribution](#-project-contribution)  
 
+- [🔄 Methodology & Key Components](#-methodology--key-components)  
+  - [Methodology](#️-methodology)  
+  - [Key Components](#-key-components)  
 
+- [📌 System Architecture](#-system-architecture)  
 
-1. **Introduction**  
-2. **Methodology & Key Components**  
-3. **Data Exploration & Preprocessing**  
-4. **Model Development**  
-5. **Model Evaluation**  
-6. **Deployment Strategy**  
-7. **Future Work & Enhancements**  
-8. **Conclusion**  
+- [🤖 Model Design](#-model-design)  
+  - [Workflow](#-workflow)  
 
-</div>
+- [🧪 Tech Stack](#-tech-stack)  
 
----
+- [📊 Results & Analysis](#-results--analysis)  
+  - [Key Takeaways](#-key-takeaways)  
 
+- [🏁 Conclusion](#-conclusion)  
+  - [Summary of Findings](#summary-of-findings)  
+  - [Impact and Significance](#impact-and-significance)  
+  - [Next Steps](#next-steps)  
+
+- [👥 Contributors & Details](#-contributors--details)  
+- [🏫 Department](#-department)  
+- [🧑‍🏫 Mentor](#-mentor)  
+- [🔬 Laboratory](#-laboratory)  
+- [📄 IEEE Paper](#-ieee-paper)  
 # 📌 Introduction
 
 <div align="left">
