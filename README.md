@@ -54,17 +54,16 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 </div>
 ## 📚 Table of Contents
 
-- [📌 Introduction](#-introduction)  
-- [📖 Literature Survey](#-literature-survey)  
-- [🔄 Methodology & Key Components](#-methodology--key-components)  
-- [📌 System Architecture](#-system-architecture)  
-- [🤖 Model Design](#-model-design)  
-- [🧪 Tech Stack](#-tech-stack)  
-- [📊 Results & Analysis](#-results--analysis)  
-- [🏁 Conclusion](#-conclusion)  
-- [👥 Contributors & Details](#-contributors--details)  
-- [📄 IEEE Paper](#-ieee-paper)  
-
+- 🔖 [Introduction](#introduction)
+- 📖 [Literature Survey](#literature-survey)
+- 🔄 [Methodology & Key Components](#methodology--key-components)
+- 📌 [System Architecture](#system-architecture)
+- 🤖 [Model Design](#model-design)
+- 🧪 [Tech Stack](#tech-stack)
+- 📊 [Results & Analysis](#results--analysis)
+- 🏁 [Conclusion](#conclusion)
+- 👥 [Contributors & Details](#contributors--details)
+- 📄 [IEEE Paper](#ieee-paper)
 
 
 ### Problem Statement
