@@ -1,3 +1,6 @@
+
+# 🎯 Slide 1: Title
+
 <div align="center">
 
 # 🏦 Advanced Deep Learning for Real-Time Fraud Detection in Banking
@@ -33,11 +36,10 @@
 **DOI:** https://doi.org/10.1109/INCET64471.2025.11139964
 
 </div>
-</div>
 
 ---
 
-<br/><br/><br/><br/><br/><br/>
+# 🔭 Slide 2: Overview
 
 <div align="left">
 
@@ -56,11 +58,10 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 `Real-Time Fraud Detection` · `Deep Learning` · `GNN` · `Transformers` · `Anomaly Detection` · `Kafka` · `Cloud` · `MLOps`
 
 </div>
-</div>
 
 ---
 
-<br/><br/><br/><br/><br/><br/>
+# 📚 Slide 3: Table of Contents
 
 <div align="left">
 
@@ -75,14 +76,11 @@ Overall, the solution aims to achieve **high detection accuracy**, **low false p
 7. **Future Work & Enhancements**  
 8. **Conclusion**  
 
-<br/>
-
-</div>
 </div>
 
 ---
 
-<br/><br/><br/><br/><br/><br/>
+# 📌 Slide 4: Introduction
 
 <div align="left">
 
@@ -105,6 +103,10 @@ The goal of this project is to develop an **advanced deep learning framework for
 `Fraud Detection` · `Deep Learning` · `Real-Time Systems` · `Banking Security` · `AI Models`
 
 </div>
+
+---
+
+# 📖 Slide 5: Literature Survey
 
 ## 📖 Literature Survey
 
@@ -142,6 +144,10 @@ The goal of this project is to develop an **advanced deep learning framework for
 - Real-time processing with streaming architecture  
 - Improved detection using **SMOTE + adversarial training**  
 
+---
+
+# 🔄 Slide 6: Methodology & Key Components
+
 ## 🔄 Methodology & Key Components
 
 ### ⚙️ Methodology
@@ -165,7 +171,9 @@ The goal of this project is to develop an **advanced deep learning framework for
 - **Security Layer:** Zero Trust validation  
 - **Output Layer:** Fraud detection results & insights  
 
-</div>
+---
+
+# 📌 Slide 7: System Architecture
 
 ## 📌 System Architecture
 
@@ -188,6 +196,11 @@ E --> F[Model Serialization joblib pkl]
 
 F --> G[Inference Engine New Data Prediction]
 ```
+
+---
+
+# 🤖 Slide 8: Model Design
+
 ## 🤖 Model Design
 
 - Hybrid deep learning architecture combining  
@@ -218,6 +231,9 @@ F --> G[Inference Engine New Data Prediction]
 **Input Data → Preprocessing → GNN → Transformer → Fusion → Prediction**
 
 ---
+
+# 🧪 Slide 9: Tech Stack
+
 ## 🧪 Tech Stack
 
 | Layer                | Technologies                          |
@@ -239,7 +255,10 @@ F --> G[Inference Engine New Data Prediction]
 - Designed with a **Zero Trust Architecture**, enhancing system security and resilience.  
 - Data insights and results visualized using **Matplotlib** and **Seaborn**.  
 - Developed and managed using **Jupyter Notebook / Google Colab** and version-controlled via **GitHub**.
+
 ---
+
+# 📊 Slide 10: Results & Analysis
 
 ## 📊 Results & Analysis
 
@@ -262,6 +281,10 @@ F --> G[Inference Engine New Data Prediction]
 - **SMOTE improves minority class detection**, but further tuning is needed  
 - Trade-off exists between **security (recall)** and **user experience (precision)** 
 
+---
+
+# 🏁 Slide 11: Conclusion
+
 ## 8. Conclusion
 
 ### **Summary of Findings**
@@ -282,73 +305,28 @@ F --> G[Inference Engine New Data Prediction]
 - Optimize the system for **real-time deployment and scalability**  
 - Further strengthen the **security layer with advanced zero-trust and quantum-resilient mechanisms**  
 
-## 📂 Project Structure
-## 👥 Contributors
-
-<table>
-<tr>
-<td align="center">
-<b>Pragna.G</b><br>
-ENG23CY0031<br>
-<a href="mailto:pragna122004@gmail.com">pragna122004@gmail.com</a>
-</td>
-
-<td align="center">
-<b>Harshitha.B.R</b><br>
-ENG23CY0018<br>
-<a href="mailto:harshisuma1805@gmail.com">harshisuma1805@gmail.com</a>
-</td>
-
-<td align="center">
-<b>Akshata</b><br>
-ENG23CY0003<br>
-<a href="mailto:tattiakshata@gmail.com">tattiakshata@gmail.com</a>
-</td>
-
-<td align="center">
-<b>Sunay</b><br>
-ENG23CY0016<br>
-<a href="mailto:Rajsunay1@gmail.com">Rajsunay1@gmail.com</a>
-</td>
-
-<td align="center">
-<b>Druthu</b><br>
-ENG23CY0014<br>
-<a href="mailto:druthukatna51@gmail.com">druthukatna51@gmail.com</a>
-</td>
-</tr>
-</table>
-
 ---
 
-### 🏫 Department  
-**Department of Computer Science and Engineering (Cyber Security)**  
-School of Engineering, Dayananda Sagar University  
+# 👥 Slide 12: Contributors & Details
+
+## 👥 Contributors
+
+(Keep your table exactly as it is here)
 
 ---
 
 ## 🧑‍🏫 Mentor
 
-**Dr. Prajwalasimha S N**  
-_Ph.D., Postdoc. (NewRIIS)_  
-Associate Professor  
-
-Department of Computer Science and Engineering (Cyber Security)  
-School of Engineering, Dayananda Sagar University  
+**Dr. Prajwalasimha S N**
 
 ---
 
 ## 🔬 Laboratory
 
-**TTEH LAB**  
-School of Engineering  
-Dayananda Sagar University  
-
-📍 Bangalore – 562112, Karnataka, India  
+**TTEH LAB**
 
 ---
 
 ## 📄 IEEE Paper
 
 **DOI:** https://doi.org/10.1109/INCET64471.2025.11139964
-
