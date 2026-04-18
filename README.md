@@ -60,7 +60,7 @@ This project presents an AI-driven fraud detection system that uses graph-based 
 
 
 
-<h1 align="left">📌 1. Introduction</h1>
+<h1 align="left">💡 Problem Overview & Solution Goals</h1>
  
 ### Problem Statement
 The banking industry faces increasingly sophisticated fraud, causing significant financial losses and reducing customer trust. Traditional rule-based and statistical systems are often reactive, struggle to adapt to evolving fraud patterns, and generate high false positives, disrupting legitimate transactions. The scale and speed of modern financial data demand a more intelligent, real-time fraud detection approach.
