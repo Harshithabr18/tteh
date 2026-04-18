@@ -538,31 +538,31 @@ F --> G[Prediction]
 <td align="center">
 <b>Pragna.G</b><br>
 ENG23CY0042<br>
-<a href="mailto:pragna122004@gmail.com">tisharunwal@gmail.com</a>
+<a href="mailto:pragna122004@gmail.com">pragna122004@gmail.com</a>
 </td>
 
 <td align="center">
 <b>Harshitha.B.R</b><br>
 ENG23CY0045<br>
-<a href="mailto:harshisuma1805@gmail.com">vaishnaviapshetty@gmail.com</a>
+<a href="mailto:harshisuma1805@gmail.com">:harshisuma1805@gmail.com</a>
 </td>
 
 <td align="center">
 <b>Akshata</b><br>
 ENG23CY0056<br>
-<a href="mailto:tattiakshata@gmail.com">chandananatesh1@gmail.com</a>
+<a href="mailto:tattiakshata@gmail.com">tattiakshata@gmail.com</a>
 </td>
 
 <td align="center">
 <b>Sunay</b><br>
 ENG23CY0016<br>
-<a href="mailto:Rajsunay1@gmail.com">gaganagaganav2702@gmail.com</a>
+<a href="mailto:Rajsunay1@gmail.com">Rajsunay1@gmail.com</a>
 </td>
 
 <td align="center">
 <b>Druthu</b><br>
 ENG23CY0016<br>
-<a href="mailto:druthukatna51@gmail.com">gaganagaganav2702@gmail.com</a>
+<a href="mailto:druthukatna51@gmail.com">druthukatna51@gmail.com</a>
 </td>
 </tr>
 </table>
