@@ -211,30 +211,15 @@ F --> G[Inference Engine New Data Prediction]
 ```mermaid
 graph TD
 
-%% Nodes
-U1[User A]
-U2[User B]
-U3[User C]
+U1[User A] -->|₹500| M1[Merchant 1]
+U2[User B] -->|₹700| M1
+U3[User C] -->|₹1200| M2[Merchant 2]
 
-D1[Device X]
-D2[Device Y]
-
-M1[Merchant 1]
-M2[Merchant 2]
-
-%% Transactions (Edges)
-U1 -->|Transaction ₹500| M1
-U2 -->|Transaction ₹700| M1
-U3 -->|Transaction ₹1200| M2
-
-%% Shared Device Relationships
-U1 --- D1
+U1 --- D1[Device X]
 U2 --- D1
-U3 --- D2
+U3 --- D2[Device Y]
 
-%% Suspicious Pattern Highlight
-U1 -. Suspicious Link .-> U3
-
+U1 -. Suspicious .-> U3
 <h1 align="left"> 🤖 Model Design </h1>
 
 
