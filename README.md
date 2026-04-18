@@ -206,6 +206,34 @@ F --> G[Inference Engine New Data Prediction]
 ```
 
 ---
+## 🔗 Transaction Graph Visualization
+
+```mermaid
+graph TD
+
+%% Nodes
+U1[User A]
+U2[User B]
+U3[User C]
+
+D1[Device X]
+D2[Device Y]
+
+M1[Merchant 1]
+M2[Merchant 2]
+
+%% Transactions (Edges)
+U1 -->|Transaction ₹500| M1
+U2 -->|Transaction ₹700| M1
+U3 -->|Transaction ₹1200| M2
+
+%% Shared Device Relationships
+U1 --- D1
+U2 --- D1
+U3 --- D2
+
+%% Suspicious Pattern Highlight
+U1 -. Suspicious Link .-> U3
 
 <h1 align="left"> 🤖 Model Design </h1>
 
