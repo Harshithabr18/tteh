@@ -106,20 +106,19 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 </div>
 
-```markdown id="lit1slide"
 ## 📖 Literature Survey
 
 - **Traditional ML Models:** Logistic Regression, Decision Trees, Random Forest, SVM  
-  → Simple and interpretable but struggle with complex patterns and imbalanced data  
+  - Simple and interpretable but struggle with complex patterns and imbalanced data  
 
 - **Anomaly Detection Methods:** Autoencoders, Isolation Forest, Clustering  
-  → Effective for detecting unknown fraud but may have lower accuracy  
+  - Effective for detecting unknown fraud but may have lower accuracy  
 
 - **Deep Learning Approaches:** RNNs, CNNs  
-  → Capture sequential behavior and complex patterns, but are computationally expensive  
+  - Capture sequential behavior and complex patterns, but are computationally expensive  
 
 - **Hybrid Models:** Combination of ML + DL + anomaly detection  
-  → Provide better accuracy and adaptability compared to standalone models  
+  - Provide better accuracy and adaptability compared to standalone models  
 
 ---
 
@@ -142,9 +141,6 @@ The goal of this project is to develop an **advanced deep learning framework for
 - Hybrid model using **GNN + Transformer**  
 - Real-time processing with streaming architecture  
 - Improved detection using **SMOTE + adversarial training**  
-```
-
-<div align="left">
 
 ## 🔄 Methodology & Key Components
 
