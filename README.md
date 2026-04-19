@@ -60,7 +60,7 @@ This project presents an AI-driven fraud detection system that uses graph-based 
 
 
 
-<h1 align="left">💡 Problem Overview & Solution Goals</h1>
+## 💡 Problem Overview & Solution Goals
  
 ### Problem Statement
 The banking industry faces increasingly sophisticated fraud, causing significant financial losses and reducing customer trust. Traditional rule-based and statistical systems are often reactive, struggle to adapt to evolving fraud patterns, and generate high false positives, disrupting legitimate transactions. The scale and speed of modern financial data demand a more intelligent, real-time fraud detection approach.
@@ -82,7 +82,7 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 ---
 
-<h1 align="left">📐 Mathematical Modeling & Core Equations</h1>
+## 📐 Mathematical Modeling & Core Equations
 
 
 ### 🔹 Graph Representation
@@ -154,7 +154,7 @@ $$
 ➡️ **Used in:** Measuring fraud detection performance  
 
 
-<h1 align="left"> 🔄  Methodology & Key Components </h1>
+## 🔄  Methodology & Key Components 
 
 
 
@@ -180,8 +180,7 @@ $$
 - **Output Layer:** Fraud detection results & insights  
 
 ---
-
-<h1 align="left">📌  System Architecture </h1>
+## 📌  System Architecture 
 
 
 
@@ -248,7 +247,7 @@ A3 --- D2
 %% Suspicious Pattern (Fraud Link)
 A1 -.-> A2
 ```
-<h1 align="left"> 🤖 Model Design </h1>
+## 🤖 Model Design 
 
 - Hybrid deep learning architecture combining  
   **Graph Neural Networks (GNN)** + **Transformer Models**
@@ -279,7 +278,7 @@ A1 -.-> A2
 
 ---
 
-<h1 align="left"> 🧪  Tech Stack </h1>
+## 🧪  Tech Stack 
 
 
 
@@ -305,7 +304,7 @@ A1 -.-> A2
 
 ---
 
-<h1 align="left"> 📊  Results & Analysis </h1>
+##  📊  Results & Analysis 
 
 
 
@@ -330,7 +329,7 @@ A1 -.-> A2
 
 ---
 
-<h1 align="left"> 🏁  Conclusion </h1>
+##  🏁  Conclusion 
 
 
 
@@ -354,7 +353,7 @@ A1 -.-> A2
 
 ---
 
-<h1 align="left"> 👥 Contributors & Details </h1>
+##  👥 Contributors & Details 
 <table>
 <tr>
 <td align="center">
