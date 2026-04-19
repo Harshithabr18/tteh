@@ -47,7 +47,7 @@ This project presents an AI-driven fraud detection system that uses graph-based 
 
 ## 📚 Table of Contents
 
-1. [Problem Statement](#problem-statement)  
+1. [Problem Statement](#1--problem-statement)  
 2. [Mathematical Modeling & Core Equations](#mathematical-modeling--core-equations)  
 3. [Methodology & Key Components](#methodology--key-components)  
 4. [System Architecture](#system-architecture)  
