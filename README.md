@@ -47,17 +47,17 @@ This project presents an AI-driven fraud detection system that uses graph-based 
 
  ## 📚 Table of Contents
 
-1. Problem Overview & Solution Goals
-2. Mathematical Modeling & Core Equations
-3. Methodology & Key Components  
-4. System Architecture
-5. Transaction Graph Visulisation 
-6. Model Design  
-7. Tech Stack  
-8. Results & Analysis  
-9. Conclusion  
-10. Contributors & Details  
-11. IEEE Paper
+1. [Problem Overview & Solution Goals](#problem-overview--solution-goals)  
+2. [Mathematical Modeling & Core Equations](#mathematical-modeling--core-equations)  
+3. [Methodology & Key Components](#methodology--key-components)  
+4. [System Architecture](#system-architecture)  
+5. [Transaction Graph Visualization](#transaction-graph-visualization)  
+6. [Model Design](#model-design)  
+7. [Tech Stack](#tech-stack)  
+8. [Results & Analysis](#results--analysis)  
+9. [Conclusion](#conclusion)  
+10. [Contributors & Details](#contributors--details)  
+11. [IEEE Paper](#ieee-paper)  
 
 
 
