@@ -47,20 +47,21 @@ This project presents an AI-driven fraud detection system that uses graph-based 
 
  ## 📚 Table of Contents
 
-1. Introduction  
+1. Problem Overview & Solution Goals
 2. Mathematical Modeling & Core Equations
 3. Methodology & Key Components  
-4. System Architecture  
-5. Model Design  
-6. Tech Stack  
-7. Results & Analysis  
-8. Conclusion  
-9. Contributors & Details  
-10. IEEE Paper
+4. System Architecture
+5. Transaction Graph Visulisation 
+6. Model Design  
+7. Tech Stack  
+8. Results & Analysis  
+9. Conclusion  
+10. Contributors & Details  
+11. IEEE Paper
 
 
 
-## 💡 Problem Overview & Solution Goals
+## 1. 💡 Problem Overview & Solution Goals
  
 ### Problem Statement
 The banking industry faces increasingly sophisticated fraud, causing significant financial losses and reducing customer trust. Traditional rule-based and statistical systems are often reactive, struggle to adapt to evolving fraud patterns, and generate high false positives, disrupting legitimate transactions. The scale and speed of modern financial data demand a more intelligent, real-time fraud detection approach.
@@ -82,7 +83,7 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 ---
 
-## 📐 Mathematical Modeling & Core Equations
+## 2. 📐 Mathematical Modeling & Core Equations
 
 
 ### 🔹 Graph Representation
@@ -154,7 +155,7 @@ $$
 ➡️ **Used in:** Measuring fraud detection performance  
 
 
-## 🔄  Methodology & Key Components 
+## 3. 🔄  Methodology & Key Components 
 
 
 
@@ -180,7 +181,7 @@ $$
 - **Output Layer:** Fraud detection results & insights  
 
 ---
-## 📌  System Architecture 
+## 4. 📌  System Architecture 
 
 
 
@@ -206,7 +207,7 @@ F --> G[Inference Engine New Data Prediction]
 
 ---
 
-## 🔗 Transaction Graph Visualization
+## 5. 🔗 Transaction Graph Visualization
 
 ```mermaid
 graph TD
@@ -247,7 +248,7 @@ A3 --- D2
 %% Suspicious Pattern (Fraud Link)
 A1 -.-> A2
 ```
-## 🤖 Model Design 
+## 6. 🤖 Model Design 
 
 - Hybrid deep learning architecture combining  
   **Graph Neural Networks (GNN)** + **Transformer Models**
@@ -278,7 +279,7 @@ A1 -.-> A2
 
 ---
 
-## 🧪  Tech Stack 
+## 7. 🧪  Tech Stack 
 
 
 
@@ -304,7 +305,7 @@ A1 -.-> A2
 
 ---
 
-##  📊  Results & Analysis 
+##  8. 📊  Results & Analysis 
 
 
 
@@ -329,7 +330,7 @@ A1 -.-> A2
 
 ---
 
-##  🏁  Conclusion 
+##  9. 🏁  Conclusion 
 
 
 
@@ -353,7 +354,7 @@ A1 -.-> A2
 
 ---
 
-##  👥 Contributors & Details 
+##  10. 👥 Contributors & Details 
 <table>
 <tr>
 <td align="center">
@@ -417,7 +418,7 @@ Dayananda Sagar University
 
 ---
 
-## 📄 IEEE Paper
+## 11. 📄 IEEE Paper
 
 **DOI:** https://doi.org/10.1109/INCET64471.2025.11139964
 
