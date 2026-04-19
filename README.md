@@ -33,25 +33,6 @@
 </div>
 
 ---
-```python
-from sklearn.metrics import confusion_matrix
-import matplotlib.pyplot as plt
-
-cm = confusion_matrix(y_test, y_pred)
-
-plt.figure()
-plt.imshow(cm)
-plt.title("Confusion Matrix")
-plt.xlabel("Predicted Label")
-plt.ylabel("True Label")
-plt.colorbar()
-
-for i in range(len(cm)):
-    for j in range(len(cm)):
-        plt.text(j, i, cm[i][j], ha='center', va='center')
-
-plt.show()
-```
 
 # 🔭Overview
 
@@ -348,7 +329,31 @@ A1 -.-> A2
 - Trade-off exists between **security (recall)** and **user experience (precision)** 
 
 ---
+## 📊 Confusion Matrix Analysis
 
+![Confusion Matrix](images/confusion_matrix.png)
+
+- The confusion matrix evaluates the performance of the fraud detection model by comparing **actual vs predicted classifications**.  
+
+- **True Negatives (TN = 30,061)**  
+  - Correctly identified legitimate transactions  
+  - Indicates strong performance in recognizing normal activity  
+
+- **False Positives (FP = 2)**  
+  - Legitimate transactions incorrectly flagged as fraud  
+  - Very low value → ensures **minimal disruption to users**  
+
+- **False Negatives (FN = 13)** ❗  
+  - Fraud transactions missed by the model  
+  - Critical issue as it may lead to **financial loss**  
+
+- **True Positives (TP = 51)** ✅  
+  - Correctly detected fraud cases  
+  - Shows the model is effective in identifying fraudulent behavior  
+
+---
+
+ 
 ##  9. 🏁  Conclusion 
 
 
