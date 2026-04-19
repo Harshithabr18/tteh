@@ -330,7 +330,7 @@ A1 -.-> A2
 - Trade-off exists between **security (recall)** and **user experience (precision)** 
 
 ---
-## 📊 Confusion Matrix Analysis
+## 9. 📊 Confusion Matrix Analysis
 
 ![Confusion Matrix](confusion_matrix.png)
 
@@ -355,7 +355,7 @@ A1 -.-> A2
 ---
 
  
-##  9. 🏁  Conclusion 
+##  10. 🏁  Conclusion 
 
 
 
@@ -379,7 +379,7 @@ A1 -.-> A2
 
 ---
 
-##  10. 👥 Contributors & Details 
+##  11. 👥 Contributors & Details 
 <table>
 <tr>
 <td align="center">
@@ -443,7 +443,7 @@ Dayananda Sagar University
 
 ---
 
-## 11. 📄 IEEE Paper
+## 12. 📄 IEEE Paper
 
 **DOI:** https://doi.org/10.1109/INCET64471.2025.11139964
 
