@@ -331,7 +331,7 @@ A1 -.-> A2
 ---
 ## 📊 Confusion Matrix Analysis
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 - The confusion matrix evaluates the performance of the fraud detection model by comparing **actual vs predicted classifications**.  
 
