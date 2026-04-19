@@ -33,6 +33,25 @@
 </div>
 
 ---
+```python
+from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
+
+cm = confusion_matrix(y_test, y_pred)
+
+plt.figure()
+plt.imshow(cm)
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+plt.colorbar()
+
+for i in range(len(cm)):
+    for j in range(len(cm)):
+        plt.text(j, i, cm[i][j], ha='center', va='center')
+
+plt.show()
+```
 
 # 🔭Overview
 
