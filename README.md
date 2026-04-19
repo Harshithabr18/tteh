@@ -45,20 +45,20 @@ This project presents an AI-driven fraud detection system that uses graph-based 
 </div>
 
 
- ## 📚 Table of Contents
+## 📚 Table of Contents
 
-1. [Problem Overview & Solution Goals](#1--problem-overview--solution-goals)  
-2. [Mathematical Modeling & Core Equations](#2--mathematical-modeling--core-equations)  
-3. [Methodology & Key Components](#3--methodology--key-components)  
-4. [System Architecture](#4--system-architecture)  
-5. [Transaction Graph Visualization](#5--transaction-graph-visualization)  
-6. [Model Design](#6--model-design)  
-7. [Tech Stack](#7--tech-stack)  
-8. [Results & Analysis](#8--results--analysis)
-9. [Confusion Matrix Analysis](#9--confusion-matrix-analysis)
-10. [Conclusion](#9--conclusion)  
-11. [Contributors & Details](#10--contributors--details)  
-12. [IEEE Paper](#11--ieee-paper)  
+1. [Problem Overview & Solution Goals](#1-problem-overview--solution-goals)  
+2. [Mathematical Modeling & Core Equations](#2-mathematical-modeling--core-equations)  
+3. [Methodology & Key Components](#3-methodology--key-components)  
+4. [System Architecture](#4-system-architecture)  
+5. [Transaction Graph Visualization](#5-transaction-graph-visualization)  
+6. [Model Design](#6-model-design)  
+7. [Tech Stack](#7-tech-stack)  
+8. [Results & Analysis](#8-results--analysis)  
+9. [Confusion Matrix Analysis](#9-confusion-matrix-analysis)  
+10. [Conclusion](#10-conclusion)  
+11. [Contributors & Details](#11-contributors--details)  
+12. [IEEE Paper](#12-ieee-paper)  
 
 
 
