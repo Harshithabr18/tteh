@@ -58,7 +58,7 @@ This project presents an AI-driven fraud detection system that uses graph-based 
 9. [Confusion Matrix Analysis](#9--confusion-matrix-analysis)  
 10. [Conclusion](#10--conclusion)  
 11. [Contributors & Details](#11--contributors--details)  
-12. [IEEE Paper](#2--ieee-paper)    
+12. [IEEE Paper](#12--ieee-paper)    
 
 
 
