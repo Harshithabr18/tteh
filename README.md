@@ -47,18 +47,19 @@ This project presents an AI-driven fraud detection system that uses graph-based 
 
 ## 📚 Table of Contents
 
-1. [Problem Statement](#1--problem-statement)  
-2. [Mathematical Modeling & Core Equations](#2--mathematical-modeling--core-equations)  
-3. [Methodology & Key Components](#3--methodology--key-components)  
-4. [System Architecture](#4--system-architecture)  
-5. [Transaction Graph Visualization](#5--transaction-graph-visualization)  
+1. [Problem Statement](#1--problem-statement)
+2. [Tech Stack](#2--tech-stack)
+3. [Methodology & Key Components](#3--methodology--key-components)
+4. [System Architecture](#4--system-architecture) 
+5. [Mathematical Modeling & Core Equations](#5--mathematical-modeling--core-equations)
 6. [Model Design](#6--model-design)  
-7. [Tech Stack](#7--tech-stack)  
+7. [Transaction Graph Visualization](#7--transaction-graph-visualization)
 8. [Results & Analysis](#8--results--analysis)  
 9. [Confusion Matrix Analysis](#9--confusion-matrix-analysis)  
 10. [Conclusion](#10--conclusion)  
 11. [Contributors & Details](#11--contributors--details)  
-12. [IEEE Paper](#12--ieee-paper)    
+12. [IEEE Paper](#12--ieee-paper)  
+  
 
 
 
@@ -86,7 +87,88 @@ The goal of this project is to develop an **advanced deep learning framework for
 
 ---
 
-## 2. 📐 Mathematical Modeling & Core Equations
+## 2. 🧪  Tech Stack 
+
+
+
+| Layer                | Technologies                          |
+|---------------------|--------------------------------------|
+| Language            | Python                               |
+| Data Processing     | Pandas, NumPy                        |
+| Imbalance Handling  | SMOTE                                |
+| ML Models           | GNN, Transformers                    |
+| Frameworks          | PyTorch / TensorFlow                 |
+| Security            | Zero Trust Architecture              |
+| Visualization       | Matplotlib, Seaborn                  |
+| Tools               | Jupyter, GitHub                      |
+
+- Built using **Python**, enabling seamless integration of data processing, machine learning, and deep learning components.  
+- Efficient data handling achieved with **Pandas** and **NumPy** for preprocessing and transformation.  
+- Addressed class imbalance using **SMOTE**, improving model fairness and performance.  
+- Leveraged **Graph Neural Networks (GNN)** and **Transformer models** for capturing complex relationships and sequential patterns.  
+- Implemented using powerful frameworks like **PyTorch / TensorFlow** for scalable deep learning.  
+- Designed with a **Zero Trust Architecture**, enhancing system security and resilience.  
+- Data insights and results visualized using **Matplotlib** and **Seaborn**.  
+- Developed and managed using **Google Colab** and version-controlled via **GitHub**.
+
+---
+
+
+
+## 3. 🔄  Methodology & Key Components 
+
+
+
+### ⚙️ Methodology
+- **Data Collection:** Transaction dataset (CSV with fraud & legitimate cases)  
+- **Preprocessing:** Cleaning, feature selection, normalization  
+- **Imbalance Handling:** SMOTE applied to balance fraud class  
+- **EDA:** Pattern analysis & visualization  
+- **Model Development:** Hybrid model (GNN + Transformer)  
+- **Adversarial Training:** Improves robustness against attacks/noise  
+- **Evaluation:** Accuracy, Precision, Recall, F1-score, ROC-AUC  
+- **Security:** Zero Trust principles for secure predictions  
+
+---
+
+### 🧩 Key Components
+- **Data Layer:** Input dataset & preprocessing  
+- **Processing Layer:** Cleaning + SMOTE balancing  
+- **Model Layer:** GNN (relationships) + Transformer (sequences)  
+- **Training Layer:** Adversarial learning & optimization  
+- **Evaluation Layer:** Metrics & performance analysis  
+- **Security Layer:** Zero Trust validation  
+- **Output Layer:** Fraud detection results & insights  
+
+---
+## 4. 📌  System Architecture 
+
+
+
+```mermaid
+flowchart TD
+
+A[Raw Dataset CSV Input] --> B[Data Ingestion and EDA]
+
+B --> C[Data Preprocessing]
+
+C --> C1[Cleaning]
+C --> C2[Feature Split]
+C --> C3[SMOTE Balancing]
+
+C --> D[Model Training Random Forest]
+
+D --> E[Model Evaluation Metrics and Visualization]
+
+E --> F[Model Serialization joblib pkl]
+
+F --> G[Inference Engine New Data Prediction]
+```
+
+---
+
+
+## 5. 📐 Mathematical Modeling & Core Equations
 
 
 ### 🔹 Graph Representation
@@ -157,60 +239,39 @@ $$
 ➡️ **Purpose:** Balance precision & recall  
 ➡️ **Used in:** Measuring fraud detection performance  
 
+## 6. 🤖 Model Design 
 
-## 3. 🔄  Methodology & Key Components 
+- Hybrid deep learning architecture combining  
+  **Graph Neural Networks (GNN)** + **Transformer Models**
 
+- **GNN Layer**
+  - Captures relationships between entities (graph-structured data)
+  - Learns connectivity patterns and hidden dependencies
 
+- **Transformer Layer**
+  - Processes sequential data (logs / events)
+  - Captures long-range dependencies using attention mechanism
 
-### ⚙️ Methodology
-- **Data Collection:** Transaction dataset (CSV with fraud & legitimate cases)  
-- **Preprocessing:** Cleaning, feature selection, normalization  
-- **Imbalance Handling:** SMOTE applied to balance fraud class  
-- **EDA:** Pattern analysis & visualization  
-- **Model Development:** Hybrid model (GNN + Transformer)  
-- **Adversarial Training:** Improves robustness against attacks/noise  
-- **Evaluation:** Accuracy, Precision, Recall, F1-score, ROC-AUC  
-- **Security:** Zero Trust principles for secure predictions  
+- **Feature Fusion**
+  - Outputs from GNN and Transformer are combined
+  - Creates a richer, context-aware representation
 
----
+- **Adversarial Training**
+  - Introduces perturbed inputs during training
+  - Improves robustness against attacks and noise
 
-### 🧩 Key Components
-- **Data Layer:** Input dataset & preprocessing  
-- **Processing Layer:** Cleaning + SMOTE balancing  
-- **Model Layer:** GNN (relationships) + Transformer (sequences)  
-- **Training Layer:** Adversarial learning & optimization  
-- **Evaluation Layer:** Metrics & performance analysis  
-- **Security Layer:** Zero Trust validation  
-- **Output Layer:** Fraud detection results & insights  
-
----
-## 4. 📌  System Architecture 
-
-
-
-```mermaid
-flowchart TD
-
-A[Raw Dataset CSV Input] --> B[Data Ingestion and EDA]
-
-B --> C[Data Preprocessing]
-
-C --> C1[Cleaning]
-C --> C2[Feature Split]
-C --> C3[SMOTE Balancing]
-
-C --> D[Model Training Random Forest]
-
-D --> E[Model Evaluation Metrics and Visualization]
-
-E --> F[Model Serialization joblib pkl]
-
-F --> G[Inference Engine New Data Prediction]
-```
+- **Output Layer**
+  - Classification / prediction (e.g., anomaly detection)
 
 ---
 
-## 5. 🔗 Transaction Graph Visualization
+### 🔄 Workflow
+**Input Data → Preprocessing → GNN → Transformer → Fusion → Prediction**
+
+---
+
+
+## 7. 🔗 Transaction Graph Visualization
 
 ```mermaid
 graph TD
@@ -251,62 +312,7 @@ A3 --- D2
 %% Suspicious Pattern (Fraud Link)
 A1 -.-> A2
 ```
-## 6. 🤖 Model Design 
 
-- Hybrid deep learning architecture combining  
-  **Graph Neural Networks (GNN)** + **Transformer Models**
-
-- **GNN Layer**
-  - Captures relationships between entities (graph-structured data)
-  - Learns connectivity patterns and hidden dependencies
-
-- **Transformer Layer**
-  - Processes sequential data (logs / events)
-  - Captures long-range dependencies using attention mechanism
-
-- **Feature Fusion**
-  - Outputs from GNN and Transformer are combined
-  - Creates a richer, context-aware representation
-
-- **Adversarial Training**
-  - Introduces perturbed inputs during training
-  - Improves robustness against attacks and noise
-
-- **Output Layer**
-  - Classification / prediction (e.g., anomaly detection)
-
----
-
-### 🔄 Workflow
-**Input Data → Preprocessing → GNN → Transformer → Fusion → Prediction**
-
----
-
-## 7. 🧪  Tech Stack 
-
-
-
-| Layer                | Technologies                          |
-|---------------------|--------------------------------------|
-| Language            | Python                               |
-| Data Processing     | Pandas, NumPy                        |
-| Imbalance Handling  | SMOTE                                |
-| ML Models           | GNN, Transformers                    |
-| Frameworks          | PyTorch / TensorFlow                 |
-| Security            | Zero Trust Architecture              |
-| Visualization       | Matplotlib, Seaborn                  |
-| Tools               | Jupyter, GitHub                      |
-
-- Built using **Python**, enabling seamless integration of data processing, machine learning, and deep learning components.  
-- Efficient data handling achieved with **Pandas** and **NumPy** for preprocessing and transformation.  
-- Addressed class imbalance using **SMOTE**, improving model fairness and performance.  
-- Leveraged **Graph Neural Networks (GNN)** and **Transformer models** for capturing complex relationships and sequential patterns.  
-- Implemented using powerful frameworks like **PyTorch / TensorFlow** for scalable deep learning.  
-- Designed with a **Zero Trust Architecture**, enhancing system security and resilience.  
-- Data insights and results visualized using **Matplotlib** and **Seaborn**.  
-- Developed and managed using **Google Colab** and version-controlled via **GitHub**.
-
----
 
 ##  8. 📊  Results & Analysis 
 
