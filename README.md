@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<img src="images/dsu_logo.png" alt="Dayananda Sagar University Logo" width="150"/>
+
 # 🏦 Advanced Deep Learning for Real-Time Fraud Detection in Banking
 
 ### 🔐 Revolutionizing Financial Security with AI
