@@ -425,6 +425,12 @@ ENG23CY0014<br>
 </table>
 
 ---
+<div align="center">
+
+<img src="DSU logo.jpeg" alt="Dayananda Sagar University Logo" width="120"/>
+
+</div>
+
 
 ### 🏫 Department  
 **Department of Computer Science and Engineering (Cyber Security)**  
