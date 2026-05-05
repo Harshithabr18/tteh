@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="Dayananda Sagar University Logo.png" alt="Dayananda Sagar University Logo.png" width="150"/>
+<img src="DSU logo.jpeg" alt="Dayananda Sagar University Logo.png" width="150"/>
 
 # 🏦 Advanced Deep Learning for Real-Time Fraud Detection in Banking
 
