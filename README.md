@@ -425,11 +425,6 @@ ENG23CY0014<br>
 </table>
 
 ---
-<div align="center">
-
-<img src="DSU logo.jpeg" alt="Dayananda Sagar University Logo" width="120"/>
-
-</div>
 
 
 ### 🏫 Department  
@@ -462,4 +457,9 @@ Dayananda Sagar University
 ## 12. 📄 IEEE Paper
 
 **DOI:** https://doi.org/10.1109/INCET64471.2025.11139964
+<div align="center">
+
+<img src="DSU logo.jpeg" alt="Dayananda Sagar University Logo" width="120"/>
+
+</div>
 
